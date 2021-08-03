@@ -1,0 +1,1164 @@
+commit,refactoring type,description,tool,validation,note
+https://github.com/dit/dit/commit/03506ef2d7839511ca4e0f6bee856a248a15f244,Rename Method,"Location: dit/algorithms/jsd.py
+The method ""JSD"" is renamed to ""jensen_shannon_divergence""",PyRef,TP,
+https://github.com/dit/dit/commit/04bbb4e0a4481da4136bbce632bfaaab6be0fded,Add Parameter,"Location: dit/distribution.py
+The parameter(s) ""str_events""is/are added to the method ""prepare_string""",PyRef,TP,
+https://github.com/dit/dit/commit/04bbb4e0a4481da4136bbce632bfaaab6be0fded,Add Parameter,"Location: dit/npjdist.py/JointDistribution
+The parameter(s) ""str_events"" in the class ""JointDistribution""is/are added to the method ""to_string""",PyRef,TP,
+https://github.com/dit/dit/commit/052455d367492b3b2a3607f363958fcd33dbca01,Remove Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""str_events"" is/are removed from the method ""_init"" in the class ""Distribution""",PyRef,TP,
+https://github.com/dit/dit/commit/052455d367492b3b2a3607f363958fcd33dbca01,Remove Parameter,"Location: dit/npscalardist.py/ScalarDistribution
+The parameter(s) ""str_events"" is/are removed from the method ""_init"" in the class ""ScalarDistribution""",PyRef,TP,
+https://github.com/dit/dit/commit/05279fd755a9d476609718b5b9d48c12223557d3,Rename Method,"Location: dit/distribution.py/BaseDistribution
+The method ""__repr__"" in the class ""BaseDistribution"" is renamed to ""__str__""",PyRef,TP,
+https://github.com/dit/dit/commit/05279fd755a9d476609718b5b9d48c12223557d3,Change/Rename Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""eventspace"" of the method ""__init__"" in the class ""Distribution"" is/are changed/renamed to ""alphabet""",PyRef,TP,
+https://github.com/dit/dit/commit/05279fd755a9d476609718b5b9d48c12223557d3,Change/Rename Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""eventspace"" of the method ""_init"" in the class ""Distribution"" is/are changed/renamed to ""alphabet""",PyRef,TP,
+https://github.com/dit/dit/commit/05279fd755a9d476609718b5b9d48c12223557d3,Change/Rename Parameter,"Location: dit/npdist.py
+The parameter(s) ""eventspace"" of the method ""_make_distribution"" is/are changed/renamed to ""alphabet""",PyRef,TP,
+https://github.com/dit/dit/commit/05279fd755a9d476609718b5b9d48c12223557d3,Change/Rename Parameter,"Location: dit/npdist.py
+The parameter(s) ""eventspace"" of the method ""reorder"" is/are changed/renamed to ""alphabet""",PyRef,TP,
+https://github.com/dit/dit/commit/0ba8d52edb7fdfc72af88fbd87359c0096c6b7ec,Add Parameter,"Location: dit/npjdist.py/JointDistribution
+The parameter(s) ""prng"" in the class ""JointDistribution""is/are added to the method ""__init__""",PyRef,TP,
+https://github.com/dit/dit/commit/0ba8d52edb7fdfc72af88fbd87359c0096c6b7ec,Add Parameter,"Location: dit/npjdist.py
+The parameter(s) ""prng""is/are added to the method ""_make_distribution""",PyRef,TP,
+https://github.com/dit/dit/commit/11bbbd7c46dc8b8039ea5ca0a66287e331c73920,Rename Method,"Location: dit/shannon/tests/test_shannon.py
+The method ""test_H0"" is renamed to ""test_entropy_pmf1d""",PyRef,TP,
+https://github.com/dit/dit/commit/145882bbe3addf859c7ff2ecc36993f6f5506b10,Rename Method,"Location: dit/math/pmfops.py
+The method ""perturb"" is renamed to ""perturb_support""",PyRef,TP,
+https://github.com/dit/dit/commit/18fc0b2ade215c6c1d8a497944188619aa135d28,Add Parameter,"Location: dit/math/pmfops.py
+The parameter(s) ""shape""is/are added to the method ""perturb_support""",PyRef,TP,
+https://github.com/dit/dit/commit/21cc4f498f9caf00f02acf2336881a0015b9bb95,Rename Method,"Location: dit/npjdist.py/JointDistribution
+The method ""is_heterogenous"" in the class ""JointDistribution"" is renamed to ""is_homogeneous""",PyRef,TP,
+https://github.com/dit/dit/commit/23b596ed402b8a2ae513a05623bcb6527c8481d8,Add Parameter,"Location: dit/algorithms/maxentropy.py/PhantomArray
+The parameter(s) ""symbols"" in the class ""PhantomArray""is/are added to the method ""__init__""",PyRef,TP,
+https://github.com/dit/dit/commit/23b596ed402b8a2ae513a05623bcb6527c8481d8,Rename Method,"Location: dit/algorithms/maxentropy.py
+The method ""constraint_rank"" is renamed to ""linear_constraint_rank""",PyRef,TP,
+https://github.com/dit/dit/commit/3d557425fd7bf400ae31c02890335c5330a6c04c,Push Down Method,"Location: nan
+Push Down Method package NecessaryIntrinsicMutualInformation_1() : void from class org.dit.multivariate.secret_key_agreement.necessary_intrinsic_mutual_information.NecessaryIntrinsicMutualInformation to package NecessaryIntrinsicMutualInformation_1() : void from class org.dit.multivariate.secret_key_agreement.skar_lower_bounds.NecessaryIntrinsicMutualInformation",Python-adapted RMiner,FP,
+https://github.com/dit/dit/commit/3d557425fd7bf400ae31c02890335c5330a6c04c,Push Down Method,"Location: dit/multivariate/secret_key_agreement/necessary_intrinsic_mutual_information.py
+Push Down Method package objective(self NecessaryIntrinsicMutualInformation, x Any) : void from class org.dit.multivariate.secret_key_agreement.necessary_intrinsic_mutual_information.NecessaryIntrinsicMutualInformation to package objective(self NecessaryIntrinsicMutualInformation, x Any) : void from class org.dit.multivariate.secret_key_agreement.skar_lower_bounds.NecessaryIntrinsicMutualInformation",Python-adapted RMiner,FP,
+https://github.com/dit/dit/commit/419143187cf53ad9f9539af4e48fb44bc2c51366,Rename Method,"Location: dit/distribution.py/BaseDistribution
+The method ""is_numeric"" in the class ""BaseDistribution"" is renamed to ""is_numerical""",PyRef,TP,
+https://github.com/dit/dit/commit/439b356ec279f85d1814c6197949c68d48924af4,Add Parameter,"Location: dit/algorithms/maxentropy.py
+The parameter(s) ""jitter""is/are added to the method ""maxent_dists""",PyRef,TP,
+https://github.com/dit/dit/commit/439b356ec279f85d1814c6197949c68d48924af4,Rename Method,"Location: dit/algorithms/maxentropy.py
+The method ""linear_constraint_rank"" is renamed to ""marginal_constraint_rank""",PyRef,TP,
+https://github.com/dit/dit/commit/439b356ec279f85d1814c6197949c68d48924af4,Rename Method,"Location: dit/algorithms/maxentropy.py
+The method ""linear_constraints"" is renamed to ""marginal_constraints""",PyRef,TP,
+https://github.com/dit/dit/commit/46aaa81889c17726ef21befa9a037353d7bb1bd3,Add Parameter,"Location: dit/distribution.py/BaseDistribution
+The parameter(s) ""copy"" in the class ""BaseDistribution""is/are added to the method ""set_base""",PyRef,TP,
+https://github.com/dit/dit/commit/46aaa81889c17726ef21befa9a037353d7bb1bd3,Add Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""copy"" in the class ""Distribution""is/are added to the method ""set_base""",PyRef,TP,
+https://github.com/dit/dit/commit/46aaa81889c17726ef21befa9a037353d7bb1bd3,Add Parameter,"Location: dit/npdist.py
+The parameter(s) ""prng""is/are added to the method ""_make_distribution""",PyRef,TP,
+https://github.com/dit/dit/commit/475506c753c8419090603a63642ee7aae61904e2,Rename Method,"Location: docs/tools/sphinxext/lexers.py/IPythonConsoleLexer
+The method ""get_modecode"" in the class ""IPythonConsoleLexer"" is renamed to ""get_mci""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Pull Up Method,"Location: dit/npjdist.py
+The method ""__setitem__"" of the class ""JointDistribution""in the file ""dit/npjdist.py""is pulled up to the class ""Distribution""in the file ""dit/npdist.py""",PyRef,FP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Rename Method,"Location: dit/distribution.py/BaseDistribution
+The method ""_validate_events"" in the class ""BaseDistribution"" is renamed to ""_validate_outcomes""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Rename Method,"Location: dit/distribution.py/BaseDistribution
+The method ""sample"" in the class ""BaseDistribution"" is renamed to ""rand""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Rename Method,"Location: dit/distribution.py/BaseDistribution
+The method ""eventprobs"" in the class ""BaseDistribution"" is renamed to ""zipped""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Rename Method,"Location: dit/npdist.py/Distribution
+The method ""eventspace"" in the class ""Distribution"" is renamed to ""sample_space""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Rename Method,"Location: dit/npjdist.py/JointDistribution
+The method ""_get_event_constructor"" in the class ""JointDistribution"" is renamed to ""_get_outcome_constructor""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Rename Method,"Location: dit/npjdist.py/JointDistribution
+The method ""event_length"" in the class ""JointDistribution"" is renamed to ""outcome_length""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Rename Method,"Location: dit/npjdist.py/JointDistribution
+The method ""eventspace"" in the class ""JointDistribution"" is renamed to ""sample_space""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Rename Method,"Location: dit/distribution.py
+The method ""eventwc"" is renamed to ""outcome_wc""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/distribution.py
+The parameter(s) ""event"" of the method ""eventwc"" is/are changed/renamed to ""outcome""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Rename Method,"Location: dit/npdist.py/Distribution
+The method ""has_event"" in the class ""Distribution"" is renamed to ""has_outcome""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""event"" of the method ""has_event"" in the class ""Distribution"" is/are changed/renamed to ""outcome""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/distribution.py/BaseDistribution
+The parameter(s) ""event"" of the method ""__contains__"" in the class ""BaseDistribution"" is/are changed/renamed to ""outcome""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/distribution.py
+The parameter(s) ""str_events"" of the method ""prepare_string"" is/are changed/renamed to ""str_outcomes""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""event"" of the method ""__contains__"" in the class ""Distribution"" is/are changed/renamed to ""outcome""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""events"" of the method ""__init__"" in the class ""Distribution"" is/are changed/renamed to ""outcomes""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""events"" of the method ""_init"" in the class ""Distribution"" is/are changed/renamed to ""outcomes""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/npdist.py
+The parameter(s) ""events"" of the method ""_make_distribution"" is/are changed/renamed to ""outcomes""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/npdist.py
+The parameter(s) ""events"" of the method ""reorder"" is/are changed/renamed to ""outcomes""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/npjdist.py/JointDistribution
+The parameter(s) ""events"" of the method ""__init__"" in the class ""JointDistribution"" is/are changed/renamed to ""outcomes""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/npjdist.py/JointDistribution
+The parameter(s) ""events"" of the method ""_init"" in the class ""JointDistribution"" is/are changed/renamed to ""outcomes""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/npjdist.py/JointDistribution
+The parameter(s) ""str_events"" of the method ""to_string"" in the class ""JointDistribution"" is/are changed/renamed to ""str_outcomes""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/npjdist.py
+The parameter(s) ""events"" of the method ""_make_distribution"" is/are changed/renamed to ""outcomes""",PyRef,TP,
+https://github.com/dit/dit/commit/4b99425db6f200c677e5117a8b9dc162d81e6a60,Change/Rename Parameter,"Location: dit/npjdist.py
+The parameter(s) ""events"" of the method ""reorder"" is/are changed/renamed to ""outcomes""",PyRef,TP,
+https://github.com/dit/dit/commit/55f6f1ab292abe7a10a93982fa6df48f8d4c4854,Inline Method,"Location: dit/math/aitchison.py
+The method ""_closure"" is inlined to the method ""closure""",PyRef,TP,
+https://github.com/dit/dit/commit/5b8629a6899fe014895367c35d85cfca785e3b88,Add Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""base"" in the class ""Distribution""is/are added to the method ""copy""",PyRef,TP,
+https://github.com/dit/dit/commit/5b8629a6899fe014895367c35d85cfca785e3b88,Extract Method,"Location: dit/helpers.py
+The method ""_construct_alphabets"" is extracted from the method ""construct_alphabets""",PyRef,TP,
+https://github.com/dit/dit/commit/5b8629a6899fe014895367c35d85cfca785e3b88,Rename Method,"Location: dit/distconst.py
+The method ""random_distribution"" is renamed to ""random_scalar_distribution""",PyRef,TP,
+https://github.com/dit/dit/commit/5b8629a6899fe014895367c35d85cfca785e3b88,Rename Method,"Location: dit/distconst.py
+The method ""uniform_distribution"" is renamed to ""uniform_scalar_distribution""",PyRef,TP,
+https://github.com/dit/dit/commit/5b8629a6899fe014895367c35d85cfca785e3b88,Rename Method,"Location: dit/distconst.py
+The method ""random_joint_distribution"" is renamed to ""random_distribution""",PyRef,TP,
+https://github.com/dit/dit/commit/5b8629a6899fe014895367c35d85cfca785e3b88,Change/Rename Parameter,"Location: dit/distconst.py
+The parameter(s) ""word_length"" of the method ""random_joint_distribution"" is/are changed/renamed to ""outcome_length""",PyRef,TP,
+https://github.com/dit/dit/commit/608fff2119f21191352ddf5d96eb82fc1ab099b0,Rename Method,"Location: dit/utils/misc.py
+The method ""partitions"" is renamed to ""partitions1""",PyRef,TP,
+https://github.com/dit/dit/commit/608fff2119f21191352ddf5d96eb82fc1ab099b0,Rename Method,"Location: dit/utils/misc.py
+The method ""_partitions"" is renamed to ""partitions2""",PyRef,TP,
+https://github.com/dit/dit/commit/658dfc8a0d73deaad1d4288aef0c9f2378130d39,Add Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""prng"" in the class ""Distribution""is/are added to the method ""__init__""",PyRef,TP,
+https://github.com/dit/dit/commit/6844b5bcdad9e8c46314a7747ddc96aab48dbe7c,Rename Method,"Location: dit/tests/test_convert.py
+The method ""test_DtoSD"" is renamed to ""test_DtoSD1""",PyRef,TP,
+https://github.com/dit/dit/commit/6844b5bcdad9e8c46314a7747ddc96aab48dbe7c,Rename Method,"Location: dit/tests/test_convert.py
+The method ""test_SDtoD"" is renamed to ""test_SDtoD1""",PyRef,TP,
+https://github.com/dit/dit/commit/756c8e6aa6c39911bbc6ed8f9f325527baa0bf24,Add Parameter,"Location: dit/distribution.py/BaseDistribution
+The parameter(s) ""numerical"" in the class ""BaseDistribution""is/are added to the method ""get_base""",PyRef,TP,
+https://github.com/dit/dit/commit/7667fe99a1e5b5d706930ab06020367a3c19538f,Extract Method,"Location: dit/algorithms/information_partitions.py/ShannonPartition
+The method ""to_string"" is extracted from the method ""__str__"" in the class ""ShannonPartition""",PyRef,TP,
+https://github.com/dit/dit/commit/81d24be624d6a0fb05fac14ffac02280ed0b70ad,Rename Method,"Location: dit/utils/bindargs.py
+The method ""bindcallargs_33"" is renamed to ""bindcallargs_geq33""",PyRef,TP,
+https://github.com/dit/dit/commit/81d24be624d6a0fb05fac14ffac02280ed0b70ad,Rename Method,"Location: dit/utils/bindargs.py
+The method ""bindcallargs_32"" is renamed to ""bindcallargs_leq32""",PyRef,TP,
+https://github.com/dit/dit/commit/836278b4f2277333f6668cf9da137fd5a6c4e134,Rename Method,"Location: dit/tests/test_npscalardist.py
+The method ""test_del"" is renamed to ""test_del1""",PyRef,TP,
+https://github.com/dit/dit/commit/88a4c124fc1e1ee0b77771ebb63055e51396d779,Rename Method,"Location: dit/math/tests/test_pmfops.py
+The method ""test_perturb"" is renamed to ""test_perturb_one""",PyRef,TP,
+https://github.com/dit/dit/commit/8e663e28df7a02deffe54df97d97e508fec78bab,Add Parameter,"Location: dit/algorithms/common_info.py
+The parameter(s) ""crvs""is/are added to the method ""common_information""",PyRef,TP,
+https://github.com/dit/dit/commit/916cda3dad76d51ed63803abe26a16a0cd677f56,Add Parameter,"Location: dit/algorithms/total_correlation.py
+The parameter(s) ""crvs""is/are added to the method ""total_correlation""",PyRef,TP,
+https://github.com/dit/dit/commit/967dd8f7aac8c44453bb14e4a710535a2b2d61f1,Add Parameter,"Location: dit/algorithms/prune_expand.py
+The parameter(s) ""union""is/are added to the method ""expanded_samplespace""",PyRef,TP,
+https://github.com/dit/dit/commit/9847f9672cdcdde38332639f0b3848c2bfb5f40f,Add Parameter,"Location: dit/distconst.py
+The parameter(s) ""inplace""is/are added to the method ""simplex_grid""",PyRef,TP,
+https://github.com/dit/dit/commit/9a5b0f08dfc6fe74965e1576697697a71ece4934,Rename Method,"Location: dit/utils/tests/test_context.py
+The method ""test_named_tempfile"" is renamed to ""test_named_tempfile1""",PyRef,TP,
+https://github.com/dit/dit/commit/a26dc5139f0c81712d149b13d19ddc7bee88d550,Remove Parameter,"Location: dit/algorithms/maxentropy.py/MaximumEntropy
+The parameter(s) ""inplace"" is/are removed from the method ""__init__"" in the class ""MaximumEntropy""",PyRef,TP,
+https://github.com/dit/dit/commit/a26dc5139f0c81712d149b13d19ddc7bee88d550,Rename Method,"Location: dit/algorithms/maxentropy.py
+The method ""maxent_dists"" is renamed to ""marginal_maxent_dists""",PyRef,TP,
+https://github.com/dit/dit/commit/b10ca232a490323ce73ac1a2ce4eb5e6d4f826b9,Rename Method,"Location: dit/utils/tests/test_misc.py
+The method ""test_partition_set"" is renamed to ""test_partition_set1""",PyRef,TP,
+https://github.com/dit/dit/commit/bd21854f4470d9bec9813829f85bfeb74e04a5c4,Rename Method,"Location: dit/distconst.py
+The method ""insert_frv"" is renamed to ""insert_rvf""",PyRef,TP,
+https://github.com/dit/dit/commit/bd21854f4470d9bec9813829f85bfeb74e04a5c4,Rename Method,"Location: dit/tests/test_distcont.py
+The method ""test_insert_frv1"" is renamed to ""test_insert_rvf1""",PyRef,TP,
+https://github.com/dit/dit/commit/bd21854f4470d9bec9813829f85bfeb74e04a5c4,Rename Method,"Location: dit/tests/test_distcont.py
+The method ""test_insert_frv2"" is renamed to ""test_insert_rvf2""",PyRef,TP,
+https://github.com/dit/dit/commit/bd21854f4470d9bec9813829f85bfeb74e04a5c4,Rename Method,"Location: dit/tests/test_distcont.py
+The method ""test_booleanfunctions1"" is renamed to ""test_rvfunctions1""",PyRef,TP,
+https://github.com/dit/dit/commit/bd21854f4470d9bec9813829f85bfeb74e04a5c4,Rename Method,"Location: dit/tests/test_distcont.py
+The method ""test_booleanfunctions2"" is renamed to ""test_rvfunctions2""",PyRef,TP,
+https://github.com/dit/dit/commit/bd21854f4470d9bec9813829f85bfeb74e04a5c4,Rename Method,"Location: dit/tests/test_distcont.py
+The method ""test_booleanfunctions3"" is renamed to ""test_rvfunctions3""",PyRef,TP,
+https://github.com/dit/dit/commit/bd21854f4470d9bec9813829f85bfeb74e04a5c4,Rename Method,"Location: dit/tests/test_distcont.py
+The method ""test_booleanfunctions4"" is renamed to ""test_rvfunctions4""",PyRef,TP,
+https://github.com/dit/dit/commit/be84e57e07b9416ef53f2876004b9fd4834d0321,Remove Parameter,"Location: dit/math/pmfops.py
+The parameter(s) ""inplace"" is/are removed from the method ""downsample""",PyRef,CTP,"Conditional true positive: parameters got merged, thus one parameter is removed. As merge parameter is not supported yet, we consider it as CTP"
+https://github.com/dit/dit/commit/bffa2c6f8274d7ea6ba3f001f413cdc93434a826,Remove Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""inplace"" is/are removed from the method ""_init"" in the class ""Distribution""",PyRef,TP,
+https://github.com/dit/dit/commit/bffa2c6f8274d7ea6ba3f001f413cdc93434a826,Remove Parameter,"Location: dit/npscalardist.py/ScalarDistribution
+The parameter(s) ""inplace"" is/are removed from the method ""_init"" in the class ""ScalarDistribution""",PyRef,TP,
+https://github.com/dit/dit/commit/c40a16aac0cc236bbf1f523c400b1b76bd521f95,Add Parameter,"Location: dit/npjdist.py
+The parameter(s) ""unique,sort""is/are added to the method ""parse_rvs""",PyRef,TP,
+https://github.com/dit/dit/commit/cb2f63f02d81e6decd55fda364b2215d70b3c090,Rename Method,"Location: dit/tests/test_distribution.py
+The method ""test_to_string4"" is renamed to ""test_to_string10""",PyRef,FP,
+https://github.com/dit/dit/commit/cb2f63f02d81e6decd55fda364b2215d70b3c090,Rename Method,"Location: dit/tests/test_helpers.py
+The method ""test_reorder1"" is renamed to ""test_reorder2""",PyRef,TP,
+https://github.com/dit/dit/commit/cb2f63f02d81e6decd55fda364b2215d70b3c090,Rename Method,"Location: dit/utils/tests/test_misc.py
+The method ""test_require_keys1"" is renamed to ""test_require_keys2""",PyRef,TP,
+https://github.com/dit/dit/commit/cf4fb1b7812ea03f605c571121156326b2a2facb,Add Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""trim"" in the class ""Distribution""is/are added to the method ""__init__""",PyRef,TP,
+https://github.com/dit/dit/commit/cf4fb1b7812ea03f605c571121156326b2a2facb,Add Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""trim"" in the class ""Distribution""is/are added to the method ""_init""",PyRef,TP,
+https://github.com/dit/dit/commit/cf4fb1b7812ea03f605c571121156326b2a2facb,Add Parameter,"Location: dit/npscalardist.py/ScalarDistribution
+The parameter(s) ""trim"" in the class ""ScalarDistribution""is/are added to the method ""__init__""",PyRef,TP,
+https://github.com/dit/dit/commit/cf4fb1b7812ea03f605c571121156326b2a2facb,Add Parameter,"Location: dit/npscalardist.py/ScalarDistribution
+The parameter(s) ""trim"" in the class ""ScalarDistribution""is/are added to the method ""_init""",PyRef,TP,
+https://github.com/dit/dit/commit/d68d2f5d0cc7a5520081ef2eb67db816c2bf9550,Extract Method,"Location: dit/algorithms/coinformation.py
+The method ""entropy"" is extracted from the method ""coinformation""",PyRef,TP,
+https://github.com/dit/dit/commit/d68d2f5d0cc7a5520081ef2eb67db816c2bf9550,Move Method,"Location: dit/npscalardist.py
+The method ""reorder"" in the file ""dit/npscalardist.py""is moved to the file ""dit/helpers.py""",PyRef,TP,
+https://github.com/dit/dit/commit/d68d2f5d0cc7a5520081ef2eb67db816c2bf9550,Rename Method,"Location: dit/helpers.py
+The method ""reorder"" is renamed to ""reorder_cp""",PyRef,TP,
+https://github.com/dit/dit/commit/d68d2f5d0cc7a5520081ef2eb67db816c2bf9550,Change/Rename Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""alphabet"" of the method ""__init__"" in the class ""Distribution"" is/are changed/renamed to ""sample_space""",PyRef,TP,
+https://github.com/dit/dit/commit/d68d2f5d0cc7a5520081ef2eb67db816c2bf9550,Change/Rename Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""alphabet"" of the method ""_init"" in the class ""Distribution"" is/are changed/renamed to ""sample_space""",PyRef,TP,
+https://github.com/dit/dit/commit/d68d2f5d0cc7a5520081ef2eb67db816c2bf9550,Change/Rename Parameter,"Location: dit/npdist.py
+The parameter(s) ""alphabet"" of the method ""_make_distribution"" is/are changed/renamed to ""sample_space""",PyRef,TP,
+https://github.com/dit/dit/commit/d68d2f5d0cc7a5520081ef2eb67db816c2bf9550,Change/Rename Parameter,"Location: dit/npscalardist.py/ScalarDistribution
+The parameter(s) ""alphabet"" of the method ""__init__"" in the class ""ScalarDistribution"" is/are changed/renamed to ""sample_space""",PyRef,TP,
+https://github.com/dit/dit/commit/d68d2f5d0cc7a5520081ef2eb67db816c2bf9550,Change/Rename Parameter,"Location: dit/npscalardist.py/ScalarDistribution
+The parameter(s) ""alphabet"" of the method ""_init"" in the class ""ScalarDistribution"" is/are changed/renamed to ""sample_space""",PyRef,TP,
+https://github.com/dit/dit/commit/d68d2f5d0cc7a5520081ef2eb67db816c2bf9550,Change/Rename Parameter,"Location: dit/npscalardist.py
+The parameter(s) ""alphabet"" of the method ""_make_distribution"" is/are changed/renamed to ""sample_space""",PyRef,TP,
+https://github.com/dit/dit/commit/da97ce945830a040932449caa262b6fe73ee04e1,Add Parameter,"Location: dit/math/pmfops.py
+The parameter(s) ""method""is/are added to the method ""projections""",PyRef,TP,
+https://github.com/dit/dit/commit/dc7b005397e143ab773380671295dbb7234a1d02,Rename Method,"Location: dit/distribution.py/BaseDistribution
+The method ""is_event"" in the class ""BaseDistribution"" is renamed to ""has_event""",PyRef,TP,
+https://github.com/dit/dit/commit/dc7b005397e143ab773380671295dbb7234a1d02,Add Parameter,"Location: dit/distribution.py/BaseDistribution
+The parameter(s) ""null"" in the class ""BaseDistribution""is/are added to the method ""is_event""",PyRef,CTP,"Conditional true positive: methods got merged with a new name with added parameter. As merge method is not supported yet, we consider it as CTP"
+https://github.com/dit/dit/commit/dd4861edf062998c0b2027553c966a43ea4e18b3,Add Parameter,"Location: dit/distconst.py
+The parameter(s) ""alpha""is/are added to the method ""random_distribution""",PyRef,TP,
+https://github.com/dit/dit/commit/dd4861edf062998c0b2027553c966a43ea4e18b3,Add Parameter,"Location: dit/distconst.py
+The parameter(s) ""alpha""is/are added to the method ""random_scalar_distribution""",PyRef,TP,
+https://github.com/dit/dit/commit/e9e208dde1371bd75ac501e44bff6dbc7f1baf36,Add Parameter,"Location: dit/distconst.py
+The parameter(s) ""merge""is/are added to the method ""mixture_distribution""",PyRef,TP,
+https://github.com/dit/dit/commit/eadee5879ee83cdfa18a8c857f75778b463570b1,Change/Rename Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""logbase"" of the method ""__init__"" in the class ""Distribution"" is/are changed/renamed to ""base""",PyRef,TP,
+https://github.com/dit/dit/commit/eadee5879ee83cdfa18a8c857f75778b463570b1,Change/Rename Parameter,"Location: dit/npdist.py/Distribution
+The parameter(s) ""logbase"" of the method ""_init"" in the class ""Distribution"" is/are changed/renamed to ""base""",PyRef,TP,
+https://github.com/dit/dit/commit/eadee5879ee83cdfa18a8c857f75778b463570b1,Change/Rename Parameter,"Location: dit/npdist.py
+The parameter(s) ""logbase"" of the method ""_make_distribution"" is/are changed/renamed to ""base""",PyRef,TP,
+https://github.com/dit/dit/commit/eb5df875b77284aad6e75c16037be0dcff9e418b,Rename Method,"Location: dit/math/tests/test_ops.py
+The method ""test_exp_func"" is renamed to ""test_exp_func1""",PyRef,TP,
+https://github.com/dit/dit/commit/eb5df875b77284aad6e75c16037be0dcff9e418b,Rename Method,"Location: dit/math/tests/test_ops.py
+The method ""test_log_func"" is renamed to ""test_log_func1""",PyRef,TP,
+https://github.com/dit/dit/commit/f2e62708e84f2de78e957032b5d1cb5544a6320e,Add Parameter,"Location: dit/math/ops.py
+The parameter(s) ""func""is/are added to the method ""exp""",PyRef,TP,
+https://github.com/dit/dit/commit/f2e62708e84f2de78e957032b5d1cb5544a6320e,Inline Method,"Location: dit/math/ops.py
+The method ""log"" is inlined to the method ""log""",PyRef,FP,
+https://github.com/dit/dit/commit/f2e62708e84f2de78e957032b5d1cb5544a6320e,Move Method,"Location: dit/math/ops.py
+The method ""add"" of the class ""LogOperations""in the file ""dit/math/ops.py""is moved to the file ""dit/math/ops.py""",PyRef,TP,
+https://github.com/dit/dit/commit/f2e62708e84f2de78e957032b5d1cb5544a6320e,Move Method,"Location: dit/math/ops.py
+The method ""add_inplace"" of the class ""LogOperations""in the file ""dit/math/ops.py""is moved to the file ""dit/math/ops.py""",PyRef,TP,
+https://github.com/dit/dit/commit/f2e62708e84f2de78e957032b5d1cb5544a6320e,Move Method,"Location: dit/math/ops.py
+The method ""add_reduce"" of the class ""LogOperations""in the file ""dit/math/ops.py""is moved to the file ""dit/math/ops.py""",PyRef,TP,
+https://github.com/dit/dit/commit/f4942930b973cf481c56f472d92eaaed9979c075,Add Parameter,"Location: dit/npjdist.py/JointDistribution
+The parameter(s) ""show_mask"" in the class ""JointDistribution""is/are added to the method ""to_string""",PyRef,TP,
+https://github.com/dit/dit/commit/f57c023ff4a9cb26a307d1cb44b87c8e76bcf588,Rename Method,"Location: dit/algorithms/entropy2.py
+The method ""entropy2"" is renamed to ""entropy""",PyRef,TP,
+https://github.com/dit/dit/commit/fc1952ad8d675e930bbd58757a1c5a4eeadaa269,Pull Up Method,"Location: dit/samplespace.py
+Pull Up Method package __len__(self SampleSpace) : void from class org.dit.samplespace.SampleSpace to package __len__(self BaseSampleSpace) : void from class org.dit.samplespace.BaseSampleSpace",Python-adapted RMiner,FP,
+https://github.com/dit/dit/commit/fc1952ad8d675e930bbd58757a1c5a4eeadaa269,Pull Up Method,"Location: dit/samplespace.py
+Pull Up Method package __contains__(self SampleSpace, item Any) : void from class org.dit.samplespace.SampleSpace to package __contains__(self BaseSampleSpace, item Any) : void from class org.dit.samplespace.BaseSampleSpace",Python-adapted RMiner,FP,
+https://github.com/dit/dit/commit/fc1952ad8d675e930bbd58757a1c5a4eeadaa269,Pull Up Method,"Location: dit/samplespace.py
+Pull Up Method package __iter__(self SampleSpace) : void from class org.dit.samplespace.SampleSpace to package __iter__(self BaseSampleSpace) : void from class org.dit.samplespace.BaseSampleSpace",Python-adapted RMiner,FP,
+https://github.com/dit/dit/commit/fc1952ad8d675e930bbd58757a1c5a4eeadaa269,Pull Up Method,"Location: dit/samplespace.py
+Pull Up Method package index(self SampleSpace, item Any) : void from class org.dit.samplespace.SampleSpace to package index(self BaseSampleSpace, item Any) : void from class org.dit.samplespace.BaseSampleSpace",Python-adapted RMiner,FP,
+https://github.com/dit/dit/commit/fc1952ad8d675e930bbd58757a1c5a4eeadaa269,Pull Up Method,"Location: dit/samplespace.py
+Pull Up Method package sort(self SampleSpace) : void from class org.dit.samplespace.SampleSpace to package sort(self BaseSampleSpace) : void from class org.dit.samplespace.BaseSampleSpace",Python-adapted RMiner,TP,
+https://github.com/kkroening/ffmpeg-python/commit/17995f5ff3ab77f3b6736783c4b180283ec0fc15,Add Parameter,"Location: ffmpeg/tests/test_ffmpeg.py
+Add Parameter	cwd : Any in method package test__run_async(mocker Any, pipe_stdin Any, pipe_stdout Any, pipe_stderr Any, cwd Any) : void from class org.ffmpeg.tests.test_ffmpeg.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/kkroening/ffmpeg-python/commit/3cb952352ff0c937c1da3bf1d80142e0d8ee1e46,Remove Parameter,"Location: ffmpeg/__init__.py/_TrimNode
+The parameter(s) ""show_mask"" is/are removed from the method ""__init__"" in the class ""_TrimNode""",PyRef,CTP,"Conditional true positive: parameters got merged, thus one parameter is removed. As merge parameter is not supported yet, we consider it as CTP"
+https://github.com/kkroening/ffmpeg-python/commit/3cb952352ff0c937c1da3bf1d80142e0d8ee1e46,Remove Parameter,"Location: ffmpeg/__init__.py/_OverlayNode
+The parameter(s) ""show_mask"" is/are removed from the method ""__init__"" in the class ""_OverlayNode""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/3cb952352ff0c937c1da3bf1d80142e0d8ee1e46,Remove Parameter,"Location: ffmpeg/__init__.py/_DrawBoxNode
+The parameter(s) ""show_mask"" is/are removed from the method ""__init__"" in the class ""_DrawBoxNode""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/3f671218a6a2c6ee50974b96a4ebf2b9fdbfd8b4,Add Parameter,"Location: ffmpeg/dag.py
+The parameter(s) ""downstream_selector""is/are added to the method ""visit""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/497105f929a7a927ee8807519738f48c49b5a3a1,Rename Method,"Location: ffmpeg/nodes.py/Node
+The method ""__init__"" in the class ""Node"" is renamed to ""__init_fromscratch__""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/497105f929a7a927ee8807519738f48c49b5a3a1,Rename Method,"Location: ffmpeg/nodes.py/InputNode
+The method ""__init__"" in the class ""InputNode"" is renamed to ""__init_fromscratch__""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/497105f929a7a927ee8807519738f48c49b5a3a1,Rename Method,"Location: ffmpeg/nodes.py/FilterNode
+The method ""__init__"" in the class ""FilterNode"" is renamed to ""__init_fromscratch__""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/497105f929a7a927ee8807519738f48c49b5a3a1,Rename Method,"Location: ffmpeg/nodes.py/OutputNode
+The method ""__init__"" in the class ""OutputNode"" is renamed to ""__init_fromscratch__""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/497105f929a7a927ee8807519738f48c49b5a3a1,Rename Method,"Location: ffmpeg/nodes.py/MergeOutputsNode
+The method ""__init__"" in the class ""MergeOutputsNode"" is renamed to ""__init_fromscratch__""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/497105f929a7a927ee8807519738f48c49b5a3a1,Rename Method,"Location: ffmpeg/nodes.py/GlobalNode
+The method ""__init__"" in the class ""GlobalNode"" is renamed to ""__init_fromscratch__""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/57abf6e86edbf1d9ff1448302d4c8bf970092a03,Rename Method,"Location: ffmpeg/nodes.py/Node
+The method ""__init_fromscratch__"" in the class ""Node"" is renamed to ""__init__""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/57abf6e86edbf1d9ff1448302d4c8bf970092a03,Rename Method,"Location: ffmpeg/nodes.py/InputNode
+The method ""__init_fromscratch__"" in the class ""InputNode"" is renamed to ""__init__""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/57abf6e86edbf1d9ff1448302d4c8bf970092a03,Rename Method,"Location: ffmpeg/nodes.py/FilterNode
+The method ""__init_fromscratch__"" in the class ""FilterNode"" is renamed to ""__init__""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/57abf6e86edbf1d9ff1448302d4c8bf970092a03,Rename Method,"Location: ffmpeg/nodes.py/OutputNode
+The method ""__init_fromscratch__"" in the class ""OutputNode"" is renamed to ""__init__""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/57abf6e86edbf1d9ff1448302d4c8bf970092a03,Rename Method,"Location: ffmpeg/nodes.py/MergeOutputsNode
+The method ""__init_fromscratch__"" in the class ""MergeOutputsNode"" is renamed to ""__init__""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/57abf6e86edbf1d9ff1448302d4c8bf970092a03,Rename Method,"Location: ffmpeg/nodes.py/GlobalNode
+The method ""__init_fromscratch__"" in the class ""GlobalNode"" is renamed to ""__init__""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/57abf6e86edbf1d9ff1448302d4c8bf970092a03,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""_get_filter_with_select_example"" is renamed to ""test_filter_with_selector""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/57abf6e86edbf1d9ff1448302d4c8bf970092a03,Change/Rename Parameter,"Location: ffmpeg/nodes.py/Node
+The parameter(s) ""select"" of the method ""stream"" in the class ""Node"" is/are changed/renamed to ""selector""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/5d78a2595d2c11236726e456e4887448751475c7,Change/Rename Parameter,"Location: ffmpeg/_run.py
+The parameter(s) ""node"" of the method ""run"" is/are changed/renamed to ""stream_spec""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/5d78a2595d2c11236726e456e4887448751475c7,Change/Rename Parameter,"Location: ffmpeg/nodes.py/MergeOutputsNode
+The parameter(s) ""stream"" of the method ""__init__"" in the class ""MergeOutputsNode"" is/are changed/renamed to ""streams""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/6169b89321c16b847524112fba887bcd35a399ea,Change/Rename Parameter,"Location: ffmpeg/nodes.py/Stream
+The parameter(s) ""item"" of the method ""__getitem__"" in the class ""Stream"" is/are changed/renamed to ""index""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/637a2a5bc3d2ac3ee2edb9b6a4ec9aa635998f27,Extract Method,"Location: ffmpeg/_filters.py
+Extract Method	package filter_(parent_node Any, filter_name Any) : void extracted from package hflip(parent_node Any) : void in class org.ffmpeg._filters.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/kkroening/ffmpeg-python/commit/637a2a5bc3d2ac3ee2edb9b6a4ec9aa635998f27,Extract Method,"Location: ffmpeg/_filters.py
+Extract Method	package filter_(parent_node Any, filter_name Any) : void extracted from package vflip(parent_node Any) : void in class org.ffmpeg._filters.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/kkroening/ffmpeg-python/commit/6887ad8bac178483b7debcefa1c52de979ec0085,Add Parameter,"Location: ffmpeg/nodes.py/InputNode
+The parameter(s) ""args,kwargs"" in the class ""InputNode""is/are added to the method ""__init__""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/6887ad8bac178483b7debcefa1c52de979ec0085,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_repr"" is renamed to ""test_node_repr""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/6887ad8bac178483b7debcefa1c52de979ec0085,Rename Method,"Location: ffmpeg/_filters.py
+The method ""filter_"" is renamed to ""filter_multi_output""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/6887ad8bac178483b7debcefa1c52de979ec0085,Change/Rename Parameter,"Location: ffmpeg/_filters.py
+The parameter(s) ""parent_node"" of the method ""filter_"" is/are changed/renamed to ""stream_spec""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/6887ad8bac178483b7debcefa1c52de979ec0085,Rename Method,"Location: ffmpeg/nodes.py
+The method ""operator"" is renamed to ""stream_operator""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/6887ad8bac178483b7debcefa1c52de979ec0085,Change/Rename Parameter,"Location: ffmpeg/nodes.py
+The parameter(s) ""node_classes"" of the method ""operator"" is/are changed/renamed to ""stream_classes""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/6887ad8bac178483b7debcefa1c52de979ec0085,Change/Rename Parameter,"Location: ffmpeg/_filters.py
+The parameter(s) ""parent_node"" of the method ""drawbox"" is/are changed/renamed to ""stream""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/881ae4efff9e3c0d987217f9437a254730315b87,Add Parameter,"Location: ffmpeg/tests/test_ffmpeg.py
+Add Parameter	use_shorthand : Any in method package test_filter_with_selector(use_shorthand Any) : void from class org.ffmpeg.tests.test_ffmpeg.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8d142c5fa9560497010e37517c331a34e5f370d0,Change/Rename Parameter,"Location: ffmpeg/_ffmpeg.py
+The parameter(s) ""parent"" of the method ""file_output"" is/are changed/renamed to ""parent_node""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8d142c5fa9560497010e37517c331a34e5f370d0,Change/Rename Parameter,"Location: ffmpeg/_ffmpeg.py
+The parameter(s) ""parent"" of the method ""overwrite_output"" is/are changed/renamed to ""parent_node""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/8d142c5fa9560497010e37517c331a34e5f370d0,Change/Rename Parameter,"Location: ffmpeg/_filters.py
+The parameter(s) ""parent"" of the method ""colorchannelmixer"" is/are changed/renamed to ""parent_node""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8d142c5fa9560497010e37517c331a34e5f370d0,Change/Rename Parameter,"Location: ffmpeg/_filters.py
+The parameter(s) ""parent"" of the method ""drawbox"" is/are changed/renamed to ""parent_node""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8d142c5fa9560497010e37517c331a34e5f370d0,Change/Rename Parameter,"Location: ffmpeg/_filters.py
+The parameter(s) ""parent"" of the method ""hflip"" is/are changed/renamed to ""parent_node""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8d142c5fa9560497010e37517c331a34e5f370d0,Change/Rename Parameter,"Location: ffmpeg/_filters.py
+The parameter(s) ""parent"" of the method ""hue"" is/are changed/renamed to ""parent_node""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8d142c5fa9560497010e37517c331a34e5f370d0,Change/Rename Parameter,"Location: ffmpeg/_filters.py
+The parameter(s) ""main_parent,overlay_parent"" of the method ""overlay"" is/are changed/renamed to ""main_parent_node,overlay_parent_node""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8d142c5fa9560497010e37517c331a34e5f370d0,Change/Rename Parameter,"Location: ffmpeg/_filters.py
+The parameter(s) ""parent"" of the method ""setpts"" is/are changed/renamed to ""parent_node""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8d142c5fa9560497010e37517c331a34e5f370d0,Change/Rename Parameter,"Location: ffmpeg/_filters.py
+The parameter(s) ""parent"" of the method ""zoompan"" is/are changed/renamed to ""parent_node""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8d142c5fa9560497010e37517c331a34e5f370d0,Change/Rename Parameter,"Location: ffmpeg/_filters.py
+The parameter(s) ""parent"" of the method ""trim"" is/are changed/renamed to ""parent_node""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8d142c5fa9560497010e37517c331a34e5f370d0,Change/Rename Parameter,"Location: ffmpeg/_filters.py
+The parameter(s) ""parent"" of the method ""vflip"" is/are changed/renamed to ""parent_node""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8d142c5fa9560497010e37517c331a34e5f370d0,Change/Rename Parameter,"Location: ffmpeg/_run.py
+The parameter(s) ""parent"" of the method ""get_args"" is/are changed/renamed to ""node""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8d142c5fa9560497010e37517c331a34e5f370d0,Change/Rename Parameter,"Location: ffmpeg/_run.py
+The parameter(s) ""parent"" of the method ""run"" is/are changed/renamed to ""node""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8ff9f408c66db2760dd74eb82b2f4a3273841b2f,Inline Method,"Location: ffmpeg/_ffmpeg.py
+The method ""file_input"" is inlined to the method ""input""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/8ff9f408c66db2760dd74eb82b2f4a3273841b2f,Inline Method,"Location: ffmpeg/_ffmpeg.py
+The method ""file_output"" is inlined to the method ""output""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_compile"" is renamed to ""test__compile""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_filter__custom"" is renamed to ""test__filter__custom""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_filter__custom_fluent"" is renamed to ""test__filter__custom_fluent""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_get_args_complex_filter"" is renamed to ""test__get_args__complex_filter""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_get_args_simple"" is renamed to ""test__get_args__simple""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_merge_outputs"" is renamed to ""test__merge_outputs""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_ffprobe"" is renamed to ""test__probe""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_ffprobe_exception"" is renamed to ""test__probe__exception""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_run"" is renamed to ""test__run""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_run__capture_out"" is renamed to ""test__run__capture_out""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_run__dummy_cmd"" is renamed to ""test__run__dummy_cmd""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_run__dummy_cmd_list"" is renamed to ""test__run__dummy_cmd_list""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_run__error"" is renamed to ""test__run__error""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_run__input_output"" is renamed to ""test__run__input_output""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_run__multi_output"" is renamed to ""test__run__multi_output""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/9a487e8603bf881519cd04afe34c1272adfa7d15,Change/Rename Parameter,"Location: ffmpeg/_run.py/Error
+The parameter(s) ""stream_spec"" of the method ""__init__"" in the class ""Error"" is/are changed/renamed to ""cmd""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/ac57e2df132d4ea05dacee642de74d057bd98f5d,Add Parameter,"Location: ffmpeg/_run.py
+The parameter(s) ""overwrite_output""is/are added to the method ""compile""",PyRef,FP,
+https://github.com/kkroening/ffmpeg-python/commit/ac57e2df132d4ea05dacee642de74d057bd98f5d,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_custom_filter"" is renamed to ""test_filter__custom""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/ac57e2df132d4ea05dacee642de74d057bd98f5d,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_custom_filter_fluent"" is renamed to ""test_filter__custom_fluent""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/ac57e2df132d4ea05dacee642de74d057bd98f5d,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_run_dummy_cmd"" is renamed to ""test_run__dummy_cmd""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/ac57e2df132d4ea05dacee642de74d057bd98f5d,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_run_dummy_cmd_list"" is renamed to ""test_run__dummy_cmd_list""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/ac57e2df132d4ea05dacee642de74d057bd98f5d,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_run_multi_output"" is renamed to ""test_run__multi_output""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/c162eab2a9d4af50653d460cf2ed30eff00f4475,Rename Method,"Location: ffmpeg/tests/test_ffmpeg.py
+The method ""test_filter_with_bad_selectors"" is renamed to ""test_get_item_with_bad_selectors""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/f3b32d6d41d65701aa65bae951518e1ec387b483,Change/Rename Parameter,"Location: ffmpeg/__init__.py/_FileOutputNode
+The parameter(s) ""parents"" of the method ""__init__"" in the class ""_FileOutputNode"" is/are changed/renamed to ""parent""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/f5f7ee20730f2beca5db80933f11d880e1f22a0c,Add Parameter,"Location: examples/split_silence.py
+The parameter(s) ""verbose""is/are added to the method ""split_audio""",PyRef,TP,
+https://github.com/kkroening/ffmpeg-python/commit/f818cffc557e032e5a61949ced8bcda96d616660,Extract Method,"Location: ffmpeg/_run.py
+The method ""compile"" is extracted from the method ""run""",PyRef,TP,
+https://github.com/asyml/texar/commit/005bf9164b063c47e354e170ae40ec1e1b94fae4,Rename Method,"Location: txtgen/data/database.py
+The method ""default_text_dataset_hparams"" is renamed to ""default_text_database_hparams""",PyRef,TP,
+https://github.com/asyml/texar/commit/01e28359f84a4f833b3b2c5991e8a903bbc8b3f3,Add Parameter,"Location: texar/modules/embedders/embedder_base.py
+Add Parameter	dropout_input : Any in method package _get_dropout_layer(self EmbedderBase, hparams Any, ids_rank Any, dropout_input Any, dropout_strategy Any) : void from class org.texar.modules.embedders.embedder_base.EmbedderBase",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/05d52b6b1b9c2f54835363b022037743f778ad83,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py
+Add Parameter	time_major : Any in method package _build(self UnidirectionalRNNEncoder, inputs Any, sequence_length Any, initial_state Any, time_major Any, mode Any) : void from class org.texar.modules.encoders.rnn_encoders.UnidirectionalRNNEncoder Add Parameter	mode : Any in method package _build(self UnidirectionalRNNEncoder, inputs Any, sequence_length Any, initial_state Any, time_major Any, mode Any) : void from class org.texar.modules.encoders.rnn_encoders.UnidirectionalRNNEncoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/0ac875d1a09f90e6bbeb5a14748d30f7212c1074,Rename Method,"Location: txtgen/modules/networks.py/FeedForwardNetwork
+The method ""name"" in the class ""FeedForwardNetwork"" is renamed to ""layer_names""",PyRef,TP,
+https://github.com/asyml/texar/commit/0ac875d1a09f90e6bbeb5a14748d30f7212c1074,Rename Method,"Location: txtgen/modules/networks.py/FeedForwardNetwork
+The method ""hparams"" in the class ""FeedForwardNetwork"" is renamed to ""layers""",PyRef,FP,
+https://github.com/asyml/texar/commit/0b1470bc7003225c306d6a5841c3b92406373dd5,Add Parameter,"Location: texar/modules/networks.py/FeedForwardNetwork
+The parameter(s) ""mode"" in the class ""FeedForwardNetwork""is/are added to the method ""_build""",PyRef,TP,
+https://github.com/asyml/texar/commit/0b3b53be1a37522eae9810c83199724f2472d958,Rename Method,"Location: txtgen/modules/encoders/encoder_base.py/EncoderBase
+The method ""encode"" in the class ""EncoderBase"" is renamed to ""_build""",PyRef,FP,
+https://github.com/asyml/texar/commit/13608828e7f18419a60e1cbd244c2af070d5737c,Rename Method,"Location: texar/core/layers.py
+The method ""normalize"" is renamed to ""layer_normalize""",PyRef,TP,
+https://github.com/asyml/texar/commit/13e644561a3f8f11babe91a1407dea1635d62337,Add Parameter,"Location: texar/modules/encoders/hierarchical_encoders.py
+Add Parameter	initial_state_major : Any in method package _build(self HierarchicalRNNEncoder, inputs Any, order Any, medium Any, sequence_length_major Any, sequence_length_minor Any, initial_state_major Any, initial_state_minor Any, tiled_initial_state_minor Any) : void from class org.texar.modules.encoders.hierarchical_encoders.HierarchicalRNNEncoder Add Parameter	initial_state_minor : Any in method package _build(self HierarchicalRNNEncoder, inputs Any, order Any, medium Any, sequence_length_major Any, sequence_length_minor Any, initial_state_major Any, initial_state_minor Any, tiled_initial_state_minor Any) : void from class org.texar.modules.encoders.hierarchical_encoders.HierarchicalRNNEncoder
+Add Parameter	tiled_initial_state_minor : Any in method package _build(self HierarchicalRNNEncoder, inputs Any, order Any, medium Any, sequence_length_major Any, sequence_length_minor Any, initial_state_major Any, initial_state_minor Any, tiled_initial_state_minor Any) : void from class org.texar.modules.encoders.hierarchical_encoders.HierarchicalRNNEncoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/14dbd00c23dcb75089440d576c7da78558bb628a,Remove Parameter,"Location: texar/modules/embedders/position_embedders.py
+Remove Parameter	dim : Any in method package _build(self SinusoidsPositionEmbedder, position_size Any, dim Any) : void from class org.texar.modules.embedders.position_embedders.SinusoidsPositionEmbedder",Python-adapted RMiner,CTP,"Conditional true positive: parameters got merged, thus one parameter is removed. As merge parameter is not supported in PyRef yet, to be fair, we consider it as CTP"
+https://github.com/asyml/texar/commit/151bd0b30ac2a967607d9f9aa7d16a6ec7114929,Rename Method,"Location: texar/models/tsf/tsf.py/TSF
+The method ""_build_inputs"" in the class ""TSF"" is renamed to ""build_inputs""",PyRef,TP,
+https://github.com/asyml/texar/commit/151bd0b30ac2a967607d9f9aa7d16a6ec7114929,Change/Rename Parameter,"Location: texar/models/tsf/tsf.py/TSF
+The parameter(s) ""is_train"" of the method ""feed_dict"" in the class ""TSF"" is/are changed/renamed to ""mode""",PyRef,TP,
+https://github.com/asyml/texar/commit/1a7fa6010b7234bb9efddf761c9bf52af07dc347,Add Parameter,"Location: texar/modules/embedders/embedder_base.py
+Add Parameter	dropout_strategy : Any in method package _get_dropout_layer(self EmbedderBase, hparams Any, inputs Any, dropout_strategy Any) : void from class org.texar.modules.embedders.embedder_base.EmbedderBase",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/1c44b7951e582b0fe3e5423b5fdc8261536befd6,Add Parameter,"Location: texar/evals/bleu.py
+Add Parameter	return_all : Any in method package sentence_bleu(references Any, hypothesis Any, lowercase Any, return_all Any) : void from class org.texar.evals.bleu.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/1c44b7951e582b0fe3e5423b5fdc8261536befd6,Add Parameter,"Location: texar/evals/bleu.py
+Add Parameter	return_all : Any in method package corpus_bleu(list_of_references Any, hypotheses Any, lowercase Any, return_all Any) : void from class org.texar.evals.bleu.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/1c44b7951e582b0fe3e5423b5fdc8261536befd6,Add Parameter,"Location: texar/evals/bleu_test.py
+Add Parameter	return_all : Any in method package _test_corpus_bleu(self BLEUTest, list_of_references Any, hypotheses Any, lowercase Any, return_all Any, true_bleu Any) : void from class org.texar.evals.bleu_test.BLEUTest",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/1da494ca95036ff07597623bf6419f02712a7640,Extract Method,"Location: txtgen/modules/networks.py/FeedForwardNetwork
+The method ""_build_layers"" is extracted from the method ""__init__"" in the class ""FeedForwardNetwork""",PyRef,TP,
+https://github.com/asyml/texar/commit/1fa0bb3b8a8f1dbf75c24415631011d3e2fcec25,Add Parameter,"Location: texar/data/data_utils.py
+Add Parameter	filenames : Any in method package maybe_download(urls Any, path Any, filenames Any, extract Any) : void from class org.texar.data.data_utils.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/1fa0bb3b8a8f1dbf75c24415631011d3e2fcec25,Extract Method,"Location: texar/data/data_utils.py
+Extract Method	package _download(url Any, filename Any, path Any) : void extracted from package maybe_download(urls Any, path Any, extract Any) : void in class org.texar.data.data_utils.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package _common_default_conv_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package _common_default_conv_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_conv1d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_conv1d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_conv2d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_conv2d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_conv3d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_conv3d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_conv2d_transpose_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_conv2d_transpose_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_conv3d_transpose_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_conv3d_transpose_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_dense_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_dense_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_dropout_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_dropout_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_flatten_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_flatten_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_max_pooling1d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_max_pooling1d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_max_pooling2d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_max_pooling2d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_max_pooling3d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_max_pooling3d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_separable_conv2d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_separable_conv2d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_batch_normalization_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_batch_normalization_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_average_pooling1d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_average_pooling1d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_average_pooling2d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_average_pooling2d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package default_average_pooling3d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass1 to package default_average_pooling3d_kwargs() : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package get_layer(hparams Any) : void from class org.txtgen.core.layers.PyDummyClass1 to package get_layer(hparams Any) : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package sinusoid_positional_encoding(inputs Any, zero_pad Any, scale Any, reuse Any, position_duration Any, scope Any) : void from class org.txtgen.core.layers.PyDummyClass1 to package sinusoid_positional_encoding(inputs Any, zero_pad Any, scale Any, reuse Any, position_duration Any, scope Any) : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package multihead_attention(queries Any, keys Any, num_units Any, num_heads Any, dropout_rate Any, causality Any, scope Any, reuse Any) : void from class org.txtgen.core.layers.PyDummyClass1 to package multihead_attention(queries Any, keys Any, num_units Any, num_heads Any, dropout_rate Any, causality Any, scope Any, reuse Any) : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package poswise_feedforward(attended_dec Any, scope Any, reuse Any) : void from class org.txtgen.core.layers.PyDummyClass1 to package poswise_feedforward(attended_dec Any, scope Any, reuse Any) : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/215319a2e0d03c77c2047672ef86662a0aebb7c3,Move Method,"Location: txtgen/core/layers.py
+Move Method	package normalize(inputs Any, epsilon Any, scope Any, reuse Any) : void from class org.txtgen.core.layers.PyDummyClass1 to package normalize(inputs Any, epsilon Any, scope Any, reuse Any) : void from class org.txtgen.core.layers.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/226214dcccb7ccc160943291d582cd70a5fe884c,Remove Parameter,"Location: texar/core/layers.py
+The parameter(s) ""mode"" is/are removed from the method ""sinusoid_positional_encoding""",PyRef,TP,
+https://github.com/asyml/texar/commit/226214dcccb7ccc160943291d582cd70a5fe884c,Rename Method,"Location: examples/eval.py
+The method ""eval"" is renamed to ""evaluate""",PyRef,TP,
+https://github.com/asyml/texar/commit/2546dbadb426502d169aed5beb5933255b6f2208,Change/Rename Parameter,"Location: examples/tsf/utils.py
+The parameter(s) ""shuffle"" of the method ""get_batches"" is/are changed/renamed to ""sort""",PyRef,TP,
+https://github.com/asyml/texar/commit/268c480aef0c651819913f30fff0d6fb6d379d5c,Rename Method,"Location: texar/core/layers.py/MergeLayer
+The method ""_compute_output_shape"" in the class ""MergeLayer"" is renamed to ""compute_output_shape""",PyRef,TP,
+https://github.com/asyml/texar/commit/268c480aef0c651819913f30fff0d6fb6d379d5c,Rename Method,"Location: texar/core/layers.py/SequentialLayer
+The method ""_compute_output_shape"" in the class ""SequentialLayer"" is renamed to ""compute_output_shape""",PyRef,TP,
+https://github.com/asyml/texar/commit/27772ab52eb4ca43c0557209fc78ae5456441f7e,Add Parameter,"Location: texar/modules/encoders/hierarchical_encoders_new.py
+Add Parameter	medium : Any in method package _build(self HierarchicalRNNEncoder, inputs Any, order Any, medium Any, medium_after_depack Any) : void from class org.texar.modules.encoders.hierarchical_encoders_new.HierarchicalRNNEncoder Add Parameter	medium_after_depack : Any in method package _build(self HierarchicalRNNEncoder, inputs Any, order Any, medium Any, medium_after_depack Any) : void from class org.texar.modules.encoders.hierarchical_encoders_new.HierarchicalRNNEncoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/2b858e6f082db57d94bb515cceb149b3856f03b4,Pull Up Method,"Location: txtgen/modules/encoders/rnn_encoders.py
+The method ""default_hparams"" of the class ""ForwardRNNEncoder""in the file ""txtgen/modules/encoders/rnn_encoders.py""is pulled up to the class ""EncoderBase""in the file ""txtgen/modules/encoders/encoder_base.py""",PyRef,TP,
+https://github.com/asyml/texar/commit/2e2201f57c37c6a0f668e7e7958ce7ac4ce5e755,Remove Parameter,"Location: texar/modules/decoders/transformer_decoders.py
+Remove Parameter	vocab_size : Any in method package _make_output_layer_from_tensor(self TransformerDecoder, output_layer_tensor Any, vocab_size Any) : void from class org.texar.modules.decoders.transformer_decoders.TransformerDecoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/3201d1adb2f21542fa26e63b7b855dad9f52608b,Rename Method,"Location: texar/models/model_base.py/ModelBase
+The method ""_build"" in the class ""ModelBase"" is renamed to ""build""",PyRef,TP,
+https://github.com/asyml/texar/commit/3497526703e85981f39b643e923dcb1e40eec366,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py
+Add Parameter	input_size : Any in method package _forward_single_output_layer(inputs Any, input_size Any, output_layer Any, flatten_inputs Any) : void from class org.texar.modules.encoders.rnn_encoders.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/3497526703e85981f39b643e923dcb1e40eec366,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py
+Add Parameter	input_size : Any in method package _forward_output_layers(inputs Any, input_size Any, output_layer Any, time_major Any, hparams Any, mode Any, sequence_length Any) : void from class org.texar.modules.encoders.rnn_encoders.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/3497526703e85981f39b643e923dcb1e40eec366,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py
+Add Parameter	return_output_size : Any in method package _build(self UnidirectionalRNNEncoder, inputs Any, sequence_length Any, initial_state Any, time_major Any, mode Any, return_cell_output Any, return_output_size Any) : void from class org.texar.modules.encoders.rnn_encoders.UnidirectionalRNNEncoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/3497526703e85981f39b643e923dcb1e40eec366,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py
+Add Parameter	return_output_size : Any in method package _build(self BidirectionalRNNEncoder, inputs Any, sequence_length Any, initial_state_fw Any, initial_state_bw Any, time_major Any, mode Any, return_cell_output Any, return_output_size Any) : void from class org.texar.modules.encoders.rnn_encoders.BidirectionalRNNEncoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/3497526703e85981f39b643e923dcb1e40eec366,Add Parameter,"Location: texar/utils/shapes.py
+Add Parameter	flattened_dim : Any in method package flatten(tensor Any, preserve_dims Any, flattened_dim Any) : void from class org.texar.utils.shapes.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/35e294c9f6f3e0c719acd4bb9d8efe1058552492,Remove Parameter,"Location: texar/data/data/paired_text_data.py/PairedTextData
+The parameter(s) ""mode"" is/are removed from the method ""_process_dataset"" in the class ""PairedTextData""",PyRef,TP,
+https://github.com/asyml/texar/commit/36f4b18340e2974cfee80e5c347bf7ae7459ab88,Rename Method,"Location: txtgen/models/tsf/ops.py
+The method ""greey_softmax"" is renamed to ""greedy_softmax""",PyRef,TP,
+https://github.com/asyml/texar/commit/38d8b5c4019a672779eb3817222b5eab4a295c1e,Add Parameter,"Location: texar/modules/encoders/hierarchical_encoders.py
+Add Parameter	sequence_length_major : Any in method package _build(self HierarchicalRNNEncoder, inputs Any, order Any, medium Any, sequence_length_major Any, sequence_length_minor Any) : void from class org.texar.modules.encoders.hierarchical_encoders.HierarchicalRNNEncoder Add Parameter	sequence_length_minor : Any in method package _build(self HierarchicalRNNEncoder, inputs Any, order Any, medium Any, sequence_length_major Any, sequence_length_minor Any) : void from class org.texar.modules.encoders.hierarchical_encoders.HierarchicalRNNEncoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/3bf4e14be2f2d6cf54df7f993e2ffe842ed31d26,Rename Method,"Location: txtgen/core/networks.py/FeedForwardNetwork
+The method ""__init__"" in the class ""FeedForwardNetwork"" is renamed to ""_build""",PyRef,FP,
+https://github.com/asyml/texar/commit/3bf4e14be2f2d6cf54df7f993e2ffe842ed31d26,Change/Rename Parameter,"Location: txtgen/core/networks.py/FeedForwardNetwork
+The parameter(s) ""hparams"" of the method ""__init__"" in the class ""FeedForwardNetwork"" is/are changed/renamed to ""inputs""",PyRef,FP,
+https://github.com/asyml/texar/commit/3d44f0d724b9a7d832533935f1524e58a3bcf041,Add Parameter,"Location: texar/losses/mle_losses.py
+Add Parameter	zero_pad : Any in method package smoothing_cross_entropy(logits Any, labels Any, vocab_size Any, confidence Any, gaussian Any, zero_pad Any) : void from class org.texar.losses.mle_losses.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/3f21c15959df4056fe263dc1c75baf4b7e7270fb,Add Parameter,"Location: texar/models/tsf/ops.py
+Add Parameter	p : Any in method package gumbel_softmax(gamma Any, logits Any, p Any, straight_through Any) : void from class org.texar.models.tsf.ops.PyDummyClass1 Add Parameter	straight_through : Any in method package gumbel_softmax(gamma Any, logits Any, p Any, straight_through Any) : void from class org.texar.models.tsf.ops.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/3f21c15959df4056fe263dc1c75baf4b7e7270fb,Move Method,"Location: texar/models/tsf/ops.py
+Move Method	package retrieve_variables(scopes Any) : void from class org.texar.models.tsf.ops.PyDummyClass1 to package retrieve_variables(scopes Any) : void from class org.texar.models.tsf.ops.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/3f21c15959df4056fe263dc1c75baf4b7e7270fb,Move Method,"Location: texar/models/tsf/ops.py
+Move Method	package feed_dict(model Any, batch Any, rho Any, gamma Any, dropout Any, learning_rate Any) : void from class org.texar.models.tsf.ops.PyDummyClass1 to package feed_dict(model Any, batch Any, rho Any, gamma Any, dropout Any, learning_rate Any) : void from class org.texar.models.tsf.ops.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/3f962dad1598e32428f0d453e86a6b2647012101,Remove Parameter,"Location: txtgen/modules/decoders/rnn_decoders.py/AttentionRNNDecoder
+The parameter(s) ""mode"" is/are removed from the method ""__init__"" in the class ""AttentionRNNDecoder""",PyRef,TP,
+https://github.com/asyml/texar/commit/3fab837876e9d45b9d78e33d32e5220812f2712b,Rename Method,"Location: examples/transformer/data_load.py
+The method ""load_en_vocab"" is renamed to ""load_shared_vocab""",PyRef,CTP,"Conditional true positive: methods got merged with a new name. As merge method is not supported yet, we consider it as CTP"
+https://github.com/asyml/texar/commit/4214c1f62e4c044f9d8cab5be32bb6a26d06af8b,Add Parameter,"Location: txtgen/modules/decoders/rnn_decoder_base.py
+Add Parameter	embedding : Any in method package __init__(self RNNDecoderBase, cell Any, embedding Any, embedding_trainable Any, vocab_size Any, hparams Any, name Any) : void from class org.txtgen.modules.decoders.rnn_decoder_base.RNNDecoderBase Add Parameter	embedding_trainable : Any in method package __init__(self RNNDecoderBase, cell Any, embedding Any, embedding_trainable Any, vocab_size Any, hparams Any, name Any) : void from class org.txtgen.modules.decoders.rnn_decoder_base.RNNDecoderBase
+Add Parameter	vocab_size : Any in method package __init__(self RNNDecoderBase, cell Any, embedding Any, embedding_trainable Any, vocab_size Any, hparams Any, name Any) : void from class org.txtgen.modules.decoders.rnn_decoder_base.RNNDecoderBase",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/4287aef6a3a82436b4e3e156b22ede235eb4e6ba,Remove Parameter,"Location: texar/core/layers.py
+The parameter(s) ""mode"" is/are removed from the method ""multihead_attention""",PyRef,TP,
+https://github.com/asyml/texar/commit/4419dbd0a344ea7bbe38926d53e8ab181f49d680,Change/Rename Parameter,"Location: examples/language_model_ptb/lm_ptb.py
+The parameter(s) ""data"" of the method ""_run_epoch"" is/are changed/renamed to ""data_iter""",PyRef,TP,
+https://github.com/asyml/texar/commit/458e0db65dd2e808d34bbb7dbeea5bf48739dd0f,Add Parameter,"Location: texar/data/data/mono_text_data.py/MonoTextData
+The parameter(s) ""chained"" in the class ""MonoTextData""is/are added to the method ""_make_processor""",PyRef,TP,
+https://github.com/asyml/texar/commit/47c71c0524c7804863f2f4bcffdef5a873d84a55,Add Parameter,"Location: txtgen/modules/connectors/connectors.py
+Add Parameter	trans : Any in method package _build(self ReparameterizedStochasticConnector, distribution Any, batch_size Any, trans Any, ds_name Any) : void from class org.txtgen.modules.connectors.connectors.ReparameterizedStochasticConnector Add Parameter	ds_name : Any in method package _build(self ReparameterizedStochasticConnector, distribution Any, batch_size Any, trans Any, ds_name Any) : void from class org.txtgen.modules.connectors.connectors.ReparameterizedStochasticConnector",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/47c71c0524c7804863f2f4bcffdef5a873d84a55,Add Parameter,"Location: txtgen/modules/connectors/connectors.py
+Add Parameter	trans : Any in method package _build(self StochasticConnector, distribution Any, batch_size Any, trans Any, ds_name Any) : void from class org.txtgen.modules.connectors.connectors.StochasticConnector Add Parameter	ds_name : Any in method package _build(self StochasticConnector, distribution Any, batch_size Any, trans Any, ds_name Any) : void from class org.txtgen.modules.connectors.connectors.StochasticConnector",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/4a744f5768490d9cfd45c33a011476a509f6810c,Extract Method,"Location: texar/data/data/text_data_test.py/MonoTextDataTest
+The method ""_run_and_test"" is extracted from the method ""test_default_setting"" in the class ""MonoTextDataTest""",PyRef,TP,
+https://github.com/asyml/texar/commit/4c96af9ed496ff5af54481aba7b01d989f8ff31c,Rename Method,"Location: txtgen/modules/connectors/connectors_test.py/TestConnectors
+The method ""test_stochastic_connector"" in the class ""TestConnectors"" is renamed to ""test_reparameterize_stochastic_connector""",PyRef,TP,
+https://github.com/asyml/texar/commit/5547b27d70a369d254c6a95a0c570fa382f8ef18,Inline Method,"Location: examples/bert/prepare_data.py
+Inline Method	package prepare_data() : void inlined to package main() : void in class org.examples.bert.prepare_data.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/57b781d480e5377d0f4e6ffd3709ef7d522bdfc6,Rename Method,"Location: texar/data/vocabulary.py/Vocab
+The method ""padding_token"" in the class ""Vocab"" is renamed to ""pad_token""",PyRef,TP,
+https://github.com/asyml/texar/commit/57b781d480e5377d0f4e6ffd3709ef7d522bdfc6,Rename Method,"Location: texar/data/vocabulary.py/Vocab
+The method ""padding_token_id"" in the class ""Vocab"" is renamed to ""pad_token_id""",PyRef,TP,
+https://github.com/asyml/texar/commit/57b781d480e5377d0f4e6ffd3709ef7d522bdfc6,Change/Rename Parameter,"Location: texar/data/vocabulary.py/Vocab
+The parameter(s) ""padding_token"" of the method ""__init__"" in the class ""Vocab"" is/are changed/renamed to ""pad_token""",PyRef,TP,
+https://github.com/asyml/texar/commit/59a3b2c6919125ac9c10288c28564ec3c80c6743,Rename Method,"Location: txtgen/losses/adv_losses_test.py
+Rename Method	package test_adv_losses(self AdvLossesTest) : void renamed to package test_binary_adversarial_losses(self AdvLossesTest) : void in class org.txtgen.losses.adv_losses_test.AdvLossesTest",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/5c15101cf8dbf8fe2485b56d26bf12346aa11e47,Rename Method,"Location: texar/modules/decoders/transformer_decoders_test.py
+Rename Method	package test_train(self TransformerDecoderTest) : void renamed to package test_decode_train(self TransformerDecoderTest) : void in class org.texar.modules.decoders.transformer_decoders_test.TransformerDecoderTest",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/5c15101cf8dbf8fe2485b56d26bf12346aa11e47,Rename Method,"Location: texar/modules/decoders/transformer_decoders_test.py
+Rename Method	package test_infer_greedy(self TransformerDecoderTest) : void renamed to package test_decode_infer_greedy(self TransformerDecoderTest) : void in class org.texar.modules.decoders.transformer_decoders_test.TransformerDecoderTest",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/5c15101cf8dbf8fe2485b56d26bf12346aa11e47,Rename Method,"Location: texar/modules/decoders/transformer_decoders_test.py
+Rename Method	package test_infer_sample(self TransformerDecoderTest) : void renamed to package test_decode_infer_sample(self TransformerDecoderTest) : void in class org.texar.modules.decoders.transformer_decoders_test.TransformerDecoderTest",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/60c13843b42fca0262340b6b4042c54db56ef12a,Extract Method,"Location: txtgen/core/layers.py
+Extract Method	package _default_regularizer_hparams() : void extracted from package default_embedding_hparams() : void in class org.txtgen.core.layers.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/621eb400ccc12ae97f3ec8361b59b87b8513646b,Change/Rename Parameter,"Location: examples/tsf/tsf_trainer.py/TSFTrainer
+The parameter(s) ""outupt_path"" of the method ""eval_model"" in the class ""TSFTrainer"" is/are changed/renamed to ""output_path""",PyRef,TP,
+https://github.com/asyml/texar/commit/621eb400ccc12ae97f3ec8361b59b87b8513646b,Change/Rename Parameter,"Location: examples/tsf/utils.py
+The parameter(s) ""word2id"" of the method ""logits2word"" is/are changed/renamed to ""id2word""",PyRef,TP,
+https://github.com/asyml/texar/commit/62f8c8dc01064aa83d352f6dc16d447c29a88661,Rename Method,"Location: txtgen/modules/connectors/connectors_test.py/TestConnectors
+The method ""test_reparameterize_stochastic_connector"" in the class ""TestConnectors"" is renamed to ""test_reparameterized_stochastic_connector""",PyRef,TP,
+https://github.com/asyml/texar/commit/6310fca2e9ee7aaade47b44a89cd47223423ea24,Extract Method,"Location: texar/data/data/mono_text_data.py
+Extract Method	package _make_mono_text_dataset(dataset_hparams Any) : void extracted from package _make_data(self MonoTextData) : void in class org.texar.data.data.mono_text_data.MonoTextData",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/6ac2db1e8c350a816f5988087c8c08c6d232618e,Remove Parameter,"Location: txtgen/core/layers.py
+The parameter(s) ""chained"" is/are removed from the method ""get_embedding""",PyRef,TP,
+https://github.com/asyml/texar/commit/6ac2db1e8c350a816f5988087c8c08c6d232618e,Remove Parameter,"Location: txtgen/modules/encoders/rnn_encoders.py/RNNEncoderBase
+The parameter(s) ""chained"" is/are removed from the method ""__init__"" in the class ""RNNEncoderBase""",PyRef,TP,
+https://github.com/asyml/texar/commit/6ac2db1e8c350a816f5988087c8c08c6d232618e,Remove Parameter,"Location: txtgen/modules/encoders/rnn_encoders.py/ForwardRNNEncoder
+The parameter(s) ""chained"" is/are removed from the method ""__init__"" in the class ""ForwardRNNEncoder""",PyRef,TP,
+https://github.com/asyml/texar/commit/6d76c64ce8ccf28a900c7cc5a0313623e7dae3cb,Add Parameter,"Location: texar/modules/encoders/transformer_encoders.py
+Add Parameter	output_dim : Any in method package default_transformer_poswise_net_hparams(output_dim Any) : void from class org.texar.modules.encoders.transformer_encoders.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/6f1acfc2d5fbf3c08a6ecb6496ab9a904beb2b3e,Add Parameter,"Location: texar/data/data/text_data_base.py
+Add Parameter	padding_values : Any in method package _make_batch(dataset Any, hparams Any, element_length_func Any, padded_shapes Any, padding_values Any) : void from class org.texar.data.data.text_data_base.TextDataBase",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/71b16cf15874829febd6c97a3e480f118d84e80f,Change/Rename Parameter,"Location: txtgen/losses/rl_losses.py
+The parameter(s) ""reward_global_fn,reward_local_fn"" of the method ""reinforce_loss_with_MCtree"" is/are changed/renamed to ""global_reward_fn,local_reward_fn""",PyRef,TP,
+https://github.com/asyml/texar/commit/71b16cf15874829febd6c97a3e480f118d84e80f,Change/Rename Parameter,"Location: txtgen/losses/rl_losses.py
+The parameter(s) ""reward_global_fn,reward_local_fn"" of the method ""reinforce_loss_with_MCtree"" is/are changed/renamed to ""global_reward_fn,local_reward_fn""",PyRef,TP,
+https://github.com/asyml/texar/commit/71e1f1b4efc31b71761fd13d3cf7ceb15c8e241f,Add Parameter,"Location: texar/core/optimization.py
+Add Parameter	optimizer_class : Any in method package _get_static_lr(learning_rate Any, optimizer_class Any, hparams Any) : void from class org.texar.core.optimization.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/75aaf9da3d814977f23c338950332ad5ae3756cc,Add Parameter,"Location: texar/losses/pg_losses.py
+Add Parameter	rank : Any in method package pg_loss_with_logits(actions Any, logits Any, advantages Any, rank Any, batched Any, sequence_length Any, average_across_batch Any, average_across_timesteps Any, average_across_remaining Any, sum_over_batch Any, sum_over_timesteps Any, sum_over_remaining Any, time_major Any) : void from class org.texar.losses.pg_losses.PyDummyClass1 Add Parameter	batched : Any in method package pg_loss_with_logits(actions Any, logits Any, advantages Any, rank Any, batched Any, sequence_length Any, average_across_batch Any, average_across_timesteps Any, average_across_remaining Any, sum_over_batch Any, sum_over_timesteps Any, sum_over_remaining Any, time_major Any) : void from class org.texar.losses.pg_losses.PyDummyClass1
+Add Parameter	sequence_length : Any in method package pg_loss_with_logits(actions Any, logits Any, advantages Any, rank Any, batched Any, sequence_length Any, average_across_batch Any, average_across_timesteps Any, average_across_remaining Any, sum_over_batch Any, sum_over_timesteps Any, sum_over_remaining Any, time_major Any) : void from class org.texar.losses.pg_losses.PyDummyClass1
+Add Parameter	average_across_batch : Any in method package pg_loss_with_logits(actions Any, logits Any, advantages Any, rank Any, batched Any, sequence_length Any, average_across_batch Any, average_across_timesteps Any, average_across_remaining Any, sum_over_batch Any, sum_over_timesteps Any, sum_over_remaining Any, time_major Any) : void from class org.texar.losses.pg_losses.PyDummyClass1
+Add Parameter	average_across_timesteps : Any in method package pg_loss_with_logits(actions Any, logits Any, advantages Any, rank Any, batched Any, sequence_length Any, average_across_batch Any, average_across_timesteps Any, average_across_remaining Any, sum_over_batch Any, sum_over_timesteps Any, sum_over_remaining Any, time_major Any) : void from class org.texar.losses.pg_losses.PyDummyClass1
+Add Parameter	average_across_remaining : Any in method package pg_loss_with_logits(actions Any, logits Any, advantages Any, rank Any, batched Any, sequence_length Any, average_across_batch Any, average_across_timesteps Any, average_across_remaining Any, sum_over_batch Any, sum_over_timesteps Any, sum_over_remaining Any, time_major Any) : void from class org.texar.losses.pg_losses.PyDummyClass1
+Add Parameter	sum_over_batch : Any in method package pg_loss_with_logits(actions Any, logits Any, advantages Any, rank Any, batched Any, sequence_length Any, average_across_batch Any, average_across_timesteps Any, average_across_remaining Any, sum_over_batch Any, sum_over_timesteps Any, sum_over_remaining Any, time_major Any) : void from class org.texar.losses.pg_losses.PyDummyClass1
+Add Parameter	sum_over_timesteps : Any in method package pg_loss_with_logits(actions Any, logits Any, advantages Any, rank Any, batched Any, sequence_length Any, average_across_batch Any, average_across_timesteps Any, average_across_remaining Any, sum_over_batch Any, sum_over_timesteps Any, sum_over_remaining Any, time_major Any) : void from class org.texar.losses.pg_losses.PyDummyClass1
+Add Parameter	sum_over_remaining : Any in method package pg_loss_with_logits(actions Any, logits Any, advantages Any, rank Any, batched Any, sequence_length Any, average_across_batch Any, average_across_timesteps Any, average_across_remaining Any, sum_over_batch Any, sum_over_timesteps Any, sum_over_remaining Any, time_major Any) : void from class org.texar.losses.pg_losses.PyDummyClass1
+Add Parameter	time_major : Any in method package pg_loss_with_logits(actions Any, logits Any, advantages Any, rank Any, batched Any, sequence_length Any, average_across_batch Any, average_across_timesteps Any, average_across_remaining Any, sum_over_batch Any, sum_over_timesteps Any, sum_over_remaining Any, time_major Any) : void from class org.texar.losses.pg_losses.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/75aaf9da3d814977f23c338950332ad5ae3756cc,Extract Method,"Location: texar/losses/pg_losses.py
+Extract Method	package pg_loss_with_log_probs(log_probs Any, advantages Any, rank Any, batched Any, sequence_length Any, average_across_batch Any, average_across_timesteps Any, average_across_remaining Any, sum_over_batch Any, sum_over_timesteps Any, sum_over_remaining Any, time_major Any) : void extracted from package pg_loss_with_logits(logits Any, actions Any, advantages Any) : void in class org.texar.losses.pg_losses.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/77b1d527138ea2385284ed8eae8322c589065d3f,Add Parameter,"Location: texar/agents/seq_pg_agent.py
+Add Parameter	sequence_length : Any in method package __init__(self SeqPGAgent, samples Any, logits Any, sequence_length Any, trainable_variables Any, learning_rate Any, sess Any, hparams Any) : void from class org.texar.agents.seq_pg_agent.SeqPGAgent",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/77c08dbc5f557c0548d123992b1321505a64e096,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py
+Add Parameter	output_layer_fw : Any in method package __init__(self BidirectionalRNNEncoder, cell_fw Any, cell_bw Any, cell_dropout_mode Any, output_layer_fw Any, output_layer_bw Any, hparams Any) : void from class org.texar.modules.encoders.rnn_encoders.BidirectionalRNNEncoder Add Parameter	output_layer_bw : Any in method package __init__(self BidirectionalRNNEncoder, cell_fw Any, cell_bw Any, cell_dropout_mode Any, output_layer_fw Any, output_layer_bw Any, hparams Any) : void from class org.texar.modules.encoders.rnn_encoders.BidirectionalRNNEncoder
+Add Parameter	mode : Any in method package _build(self BidirectionalRNNEncoder, inputs Any, sequence_length Any, initial_state_fw Any, initial_state_bw Any, time_major Any, mode Any, return_cell_output Any) : void from class org.texar.modules.encoders.rnn_encoders.BidirectionalRNNEncoder
+Add Parameter	return_cell_output : Any in method package _build(self BidirectionalRNNEncoder, inputs Any, sequence_length Any, initial_state_fw Any, initial_state_bw Any, time_major Any, mode Any, return_cell_output Any) : void from class org.texar.modules.encoders.rnn_encoders.BidirectionalRNNEncoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/77c08dbc5f557c0548d123992b1321505a64e096,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py
+Add Parameter	time_major : Any in method package _build(self BidirectionalRNNEncoder, inputs Any, sequence_length Any, initial_state_fw Any, initial_state_bw Any, time_major Any, mode Any, return_cell_output Any) : void from class org.texar.modules.encoders.rnn_encoders.BidirectionalRNNEncoder Add Parameter	output_layer_bw : Any in method package __init__(self BidirectionalRNNEncoder, cell_fw Any, cell_bw Any, cell_dropout_mode Any, output_layer_fw Any, output_layer_bw Any, hparams Any) : void from class org.texar.modules.encoders.rnn_encoders.BidirectionalRNNEncoder
+Add Parameter	mode : Any in method package _build(self BidirectionalRNNEncoder, inputs Any, sequence_length Any, initial_state_fw Any, initial_state_bw Any, time_major Any, mode Any, return_cell_output Any) : void from class org.texar.modules.encoders.rnn_encoders.BidirectionalRNNEncoder
+Add Parameter	return_cell_output : Any in method package _build(self BidirectionalRNNEncoder, inputs Any, sequence_length Any, initial_state_fw Any, initial_state_bw Any, time_major Any, mode Any, return_cell_output Any) : void from class org.texar.modules.encoders.rnn_encoders.BidirectionalRNNEncoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/791e7325a985bc8dd1a213c7cd1b1e888f934074,Move Method,"Location: texar/losses/losses_utils.py
+Move Method	package mask_sequences(sequence Any, sequence_length Any, rank Any, dtype Any, time_major Any) : void from class org.texar.losses.losses_utils.PyDummyClass1 to package mask_sequences(sequence Any, sequence_length Any, rank Any, dtype Any, time_major Any) : void from class org.texar.utils.utils.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/794eed1024deaecf3156ec68026d9020142ac778,Add Parameter,"Location: txtgen/models/tsf/ops.py
+The parameter(s) ""output_keep_prob""is/are added to the method ""feed_softmax""",PyRef,TP,
+https://github.com/asyml/texar/commit/794eed1024deaecf3156ec68026d9020142ac778,Add Parameter,"Location: txtgen/models/tsf/ops.py
+The parameter(s) ""output_keep_prob""is/are added to the method ""greedy_softmax""",PyRef,TP,
+https://github.com/asyml/texar/commit/794eed1024deaecf3156ec68026d9020142ac778,Add Parameter,"Location: txtgen/models/tsf/ops.py
+The parameter(s) ""output_keep_prob""is/are added to the method ""sample_gumbel""",PyRef,TP,
+https://github.com/asyml/texar/commit/7a1e0f8b95245653955471b7737262a8487cec8c,Remove Parameter,"Location: txtgen/modules/encoders/rnn_encoders.py/RNNEncoderBase
+The parameter(s) ""output_keep_prob"" is/are removed from the method ""__init__"" in the class ""RNNEncoderBase""",PyRef,TP,
+https://github.com/asyml/texar/commit/7d15242a47627905dade62249362eb2a81393008,Remove Parameter,"Location: texar/losses/pg_losses_test.py
+Remove Parameter	rank : Any in method package _test_sequence_loss(self PGLossesTest, loss_fn Any, actions Any, logits Any, advantages Any, rank Any, batched Any, sequence_length Any) : void from class org.texar.losses.pg_losses_test.PGLossesTest",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/7fa6816897431eda575d8a75cd5d51d8f0541e4c,Remove Parameter,"Location: txtgen/modules/connectors/connectors.py/ForwardConnector
+The parameter(s) ""output_keep_prob"" is/are removed from the method ""default_hparams"" in the class ""ForwardConnector""",PyRef,TP,
+https://github.com/asyml/texar/commit/830108b4b5f71f1a63cbd97c8131ba1aef4ac56a,Extract Method,"Location: texar/utils/shapes.py
+Extract Method	package _mask_sequences_tensor(sequence Any, sequence_length Any, dtype Any, time_major Any, tensor_rank Any) : void extracted from package mask_sequences(sequence Any, sequence_length Any, rank Any, dtype Any, time_major Any) : void in class org.texar.utils.shapes.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/85189c137f8a77fc32d6395149f9f22b8350209a,Add Parameter,"Location: texar/modules/memory/memory_network.py
+Add Parameter	memory_size : Any in method package get_default_embed_fn(self MemNetBase, memory_size Any, embed_fn_hparams Any) : void from class org.texar.modules.memory.memory_network.MemNetBase",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/85189c137f8a77fc32d6395149f9f22b8350209a,Add Parameter,"Location: texar/modules/memory/memory_network_test.py
+Add Parameter	use_B : Any in method package _test_memory_dim(self MemNetRNNLikeTest, combine_mode Any, soft_memory Any, soft_query Any, use_B Any) : void from class org.texar.modules.memory.memory_network_test.MemNetRNNLikeTest",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/8854a03526f72193a53264246032f7a51bfe0fda,Rename Method,"Location: texar/data/vocabulary.py/Vocab
+The method ""vocab_size"" in the class ""Vocab"" is renamed to ""size""",PyRef,TP,
+https://github.com/asyml/texar/commit/8927239c1a02b2755e39c879e194f3cb14e1d4a4,Remove Parameter,"Location: txtgen/losses/adv_losses.py
+Remove Parameter	vocab_size : Any in method package adversarial_losses(true_data Any, generated_data Any, embedding Any, vocab_size Any, hparams Any) : void from class org.txtgen.losses.adv_losses.PyDummyClass1 Remove Parameter	hparams : Any in method package adversarial_losses(true_data Any, generated_data Any, embedding Any, vocab_size Any, hparams Any) : void from class org.txtgen.losses.adv_losses.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/89b081ed3659557e75c8d95a30d1170ddf53cc88,Add Parameter,"Location: texar/modules/embedders/embedders_test.py
+Add Parameter	hparams : Any in method package _test_position_embedder(self EmbedderTest, hparams Any) : void from class org.texar.modules.embedders.embedders_test.EmbedderTest",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/908825d56f4e09ec412efe0323b6a3f6713955cc,Add Parameter,"Location: texar/modules/decoders/transformer_decoders.py
+Add Parameter	batch_size : Any in method package _init_cache(self TransformerDecoder, memory Any, memory_attention_bias Any, beam_search_decoding Any, batch_size Any) : void from class org.texar.modules.decoders.transformer_decoders.TransformerDecoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/9262a00c14949bcf152488270ccb8f001e38d553,Add Parameter,"Location: texar/modules/connectors/connectors.py
+Add Parameter	hparams : Any in method package __init__(self ForwardConnector, output_size Any, hparams Any) : void from class org.texar.modules.connectors.connectors.ForwardConnector",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/95529eabba6f76c7b6866f60773dbfcf4713552a,Remove Parameter,"Location: txtgen/core/layers.py
+The parameter(s) ""output_keep_prob"" is/are removed from the method ""sinusoid_positional_encoding""",PyRef,TP,
+https://github.com/asyml/texar/commit/9610625a1fc6f697d234c5cfc8b532c02880bd01,Rename Method,"Location: txtgen/core/layers.py
+The method ""_get_initializer"" is renamed to ""get_initializer""",PyRef,TP,
+https://github.com/asyml/texar/commit/9610625a1fc6f697d234c5cfc8b532c02880bd01,Rename Method,"Location: txtgen/core/layers.py
+The method ""_get_regularizer"" is renamed to ""get_regularizer""",PyRef,TP,
+https://github.com/asyml/texar/commit/971e70fa2abe4ad97c8725211b85ae4624b0d256,Add Parameter,"Location: texar/modules/encoders/hierarchical_encoders.py
+Add Parameter	order : Any in method package _build(self HierarchicalRNNEncoder, inputs Any, order Any, medium Any) : void from class org.texar.modules.encoders.hierarchical_encoders.HierarchicalRNNEncoder Add Parameter	medium : Any in method package _build(self HierarchicalRNNEncoder, inputs Any, order Any, medium Any) : void from class org.texar.modules.encoders.hierarchical_encoders.HierarchicalRNNEncoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/971e70fa2abe4ad97c8725211b85ae4624b0d256,Move Method,"Location: texar/modules/encoders/hierarchical_encoders.py
+Move Method	package default_hparams() : void from class org.texar.modules.encoders.hierarchical_encoders.HierarchicalEncoder to package default_hparams() : void from class org.texar.modules.encoders.hierarchical_encoders.HierarchicalRNNEncoder",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/971e70fa2abe4ad97c8725211b85ae4624b0d256,Move Method,"Location: texar/modules/encoders/hierarchical_encoders.py
+Move Method	package _build(self HierarchicalEncoder, inputs Any) : void from class org.texar.modules.encoders.hierarchical_encoders.HierarchicalEncoder to package _build(self HierarchicalRNNEncoder, inputs Any, order Any, medium Any) : void from class org.texar.modules.encoders.hierarchical_encoders.HierarchicalRNNEncoder",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/9a3cf2c34248e5e91a87fc8434ab3e893683b549,Change/Rename Parameter,"Location: texar/agents/agent_base.py/AgentBase
+The parameter(s) ""next_state"" of the method ""perceive"" in the class ""AgentBase"" is/are changed/renamed to ""next_observation""",PyRef,TP,
+https://github.com/asyml/texar/commit/a468f7c489e984ed77cc7742473f22f33c2bd767,Extract Method,"Location: texar/core/optimization.py
+Extract Method	package get_static_lr(learning_rate Any, hparams Any) : void extracted from package get_train_op(loss Any, variables Any, optimizer Any, learning_rate Any, global_step Any, increment_global_step Any, hparams Any) : void in class org.texar.core.optimization.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/a468f7c489e984ed77cc7742473f22f33c2bd767,Extract Method,"Location: texar/core/optimization.py
+Extract Method	package get_static_lr(learning_rate Any, hparams Any) : void extracted from package get_optimizer(variables Any, learning_rate Any, global_step Any, hparams Any) : void in class org.texar.core.optimization.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/a598bab314fcd5352f70597d3bb8506c47254cc5,Remove Parameter,"Location: texar/modules/decoders/rnn_decoders.py/BasicRNNDecoder
+The parameter(s) ""output_keep_prob"" is/are removed from the method ""__init__"" in the class ""BasicRNNDecoder""",PyRef,TP,
+https://github.com/asyml/texar/commit/a598bab314fcd5352f70597d3bb8506c47254cc5,Remove Parameter,"Location: texar/modules/decoders/rnn_decoders.py/AttentionRNNDecoder
+The parameter(s) ""output_keep_prob"" is/are removed from the method ""__init__"" in the class ""AttentionRNNDecoder""",PyRef,TP,
+https://github.com/asyml/texar/commit/a741ef76c939280837c4d5bc874c58fcbe0bb836,Add Parameter,"Location: texar/data/data/data_base.py
+Add Parameter	padding_values : Any in method package _make_batch(dataset Any, hparams Any, padded_batch Any, padding_values Any) : void from class org.texar.data.data.data_base.DataBase",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/a8df33d1ba7630845f822234f8e978a3dc3b0970,Add Parameter,"Location: texar/utils/utils.py
+Add Parameter	is_token_list : Any in method package strip_special_tokens(str_ Any, strip_pad Any, strip_bos Any, strip_eos Any, is_token_list Any, compat Any) : void from class org.texar.utils.utils.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/a8df33d1ba7630845f822234f8e978a3dc3b0970,Extract Method,"Location: texar/utils/utils.py
+Extract Method	package _recur_split(s Any, dtype_as Any) : void extracted from package map_ids_to_strs(ids Any, vocab Any, join Any, strip_pad Any, strip_bos Any, strip_eos Any, compat Any) : void in class org.texar.utils.utils.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/b3b6fc5e9d5f136bbb811a6a1d9774683cd7fea4,Rename Method,"Location: texar/data/q_data/q_mono_text_data.py
+The method ""_default_mono_text_dataset_hparams"" is renamed to ""_default_q_mono_text_dataset_hparams""",PyRef,TP,
+https://github.com/asyml/texar/commit/b3b6fc5e9d5f136bbb811a6a1d9774683cd7fea4,Rename Method,"Location: texar/data/q_data/q_multi_aligned_data.py
+The method ""_default_dataset_hparams"" is renamed to ""_default_q_dataset_hparams""",PyRef,TP,
+https://github.com/asyml/texar/commit/b3b6fc5e9d5f136bbb811a6a1d9774683cd7fea4,Rename Method,"Location: texar/data/q_data/q_multi_source_text_data.py
+The method ""_default_multi_source_text_dataset_hparams"" is renamed to ""_default_q_multi_source_text_dataset_hparams""",PyRef,TP,
+https://github.com/asyml/texar/commit/b3b6fc5e9d5f136bbb811a6a1d9774683cd7fea4,Rename Method,"Location: texar/data/q_data/q_paired_text_data.py
+The method ""_default_paired_text_dataset_hparams"" is renamed to ""_default_q_paired_text_dataset_hparams""",PyRef,TP,
+https://github.com/asyml/texar/commit/b5b06c0f262413ef62c4bfff996f3189673507b1,Remove Parameter,"Location: texar/core/layers.py
+The parameter(s) ""output_keep_prob"" is/are removed from the method ""multihead_attention""",PyRef,CTP,"Conditional true positive: parameters got merged, thus one parameter is removed. As merge parameter is not supported yet, we consider it as CTP"
+https://github.com/asyml/texar/commit/b5b06c0f262413ef62c4bfff996f3189673507b1,Remove Parameter,"Location: texar/modules/decoders/transformer_decoders.py/TransformerDecoder
+The parameter(s) ""output_keep_prob"" is/are removed from the method ""_build"" in the class ""TransformerDecoder""",PyRef,CTP,"Conditional true positive: parameters got merged, thus one parameter is removed. As merge parameter is not supported yet, we consider it as CTP"
+https://github.com/asyml/texar/commit/b5ff61dd4b579d0a2bc4ecc25cc2e250381bbedb,Add Parameter,"Location: texar/modules/decoders/beam_search_decode.py
+Add Parameter	tiled_initial_state : Any in method package beam_search_decode(decoder_or_cell Any, embedding Any, start_tokens Any, end_token Any, beam_width Any, initial_state Any, tiled_initial_state Any, output_layer Any, length_penalty_weight Any, max_decoding_length Any, output_time_major Any) : void from class org.texar.modules.decoders.beam_search_decode.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/b5ff61dd4b579d0a2bc4ecc25cc2e250381bbedb,Extract Method,"Location: texar/modules/decoders/beam_search_decode.py
+Extract Method	package _get_initial_state(initial_state Any, tiled_initial_state Any, cell Any, batch_size Any, beam_width Any, dtype Any) : void extracted from package beam_search_decode(decoder_or_cell Any, embedding Any, start_tokens Any, end_token Any, beam_width Any, initial_state Any, output_layer Any, length_penalty_weight Any, max_decoding_length Any, output_time_major Any) : void in class org.texar.modules.decoders.beam_search_decode.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/c109f295a23d7ee1b0b6ddd0a04730c144ece462,Add Parameter,"Location: texar/core/layers.py
+Add Parameter	mode : Any in method package call(self SequentialLayer, inputs Any, mode Any) : void from class org.texar.core.layers.SequentialLayer",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/c109f295a23d7ee1b0b6ddd0a04730c144ece462,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py
+Add Parameter	output_layer : Any in method package __init__(self UnidirectionalRNNEncoder, cell Any, cell_dropout_mode Any, output_layer Any, hparams Any) : void from class org.texar.modules.encoders.rnn_encoders.UnidirectionalRNNEncoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/c13faf9996622ddb6297aa090ce0157bcbb5cfe3,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py
+Add Parameter	flatten_inputs : Any in method package _forward_single_output_layer(inputs Any, output_layer Any, flatten_inputs Any) : void from class org.texar.modules.encoders.rnn_encoders.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/c13faf9996622ddb6297aa090ce0157bcbb5cfe3,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py
+Add Parameter	sequence_length : Any in method package _forward_output_layers(inputs Any, output_layer Any, time_major Any, hparams Any, mode Any, sequence_length Any) : void from class org.texar.modules.encoders.rnn_encoders.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/c52371d1de639e99903569b08476409d5f6708e2,Remove Parameter,"Location: texar/core/layers.py
+The parameter(s) ""output_keep_prob"" is/are removed from the method ""get_embedding""",PyRef,TP,
+https://github.com/asyml/texar/commit/c71b23f40f6e4f2126e61d6dfcf92eb3247bfcba,Add Parameter,"Location: texar/modules/embedders/embedder_utils.py
+Add Parameter	mode : Any in method package get_embedding(hparams Any, init_value Any, vocab_size Any, variable_scope Any, mode Any) : void from class org.texar.modules.embedders.embedder_utils.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/c71b23f40f6e4f2126e61d6dfcf92eb3247bfcba,Add Parameter,"Location: texar/modules/embedders/embedders.py
+Add Parameter	mode : Any in method package __init__(self WordEmbedder, init_value Any, vocab_size Any, hparams Any, mode Any) : void from class org.texar.modules.embedders.embedders.WordEmbedder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/cc3efe484c2a125199924810086e992530bc5e7c,Rename Method,"Location: examples/seq2seq_exposure/interpolation_helper.py
+Rename Method	package sample_by_reward(self InterpolationHelper, time Any, state Any) : void renamed to package _sample_by_reward(self InterpolationHelper, time Any, state Any) : void in class org.examples.seq2seq_exposure.interpolation_helper.InterpolationHelper",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/cd312060d61dc4147b5780829813518dc30846ee,Change/Rename Parameter,"Location: texar/data/data/data_utils.py/_DataSpec
+The parameter(s) ""num"" of the method ""set_ith_data_spec"" in the class ""_DataSpec"" is/are changed/renamed to ""total_count""",PyRef,TP,
+https://github.com/asyml/texar/commit/ce1e5a875b09b34cb66119a7b2cdf91375cf70d8,Move Method,"Location: texar/modules/encoders/conv_encoders_test.py
+Move Method	package test_encode(self SimpleConv1DEncoderTest) : void from class org.texar.modules.encoders.conv_encoders_test.SimpleConv1DEncoderTest to package test_encode(self Conv1DEncoderTest) : void from class org.texar.modules.encoders.conv_encoders_test.Conv1DEncoderTest",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/cfa4f81fec27293afa829f16c4970b9fa932d4f4,Remove Parameter,"Location: texar/modules/encoders/rnn_encoders.py
+Remove Parameter	flatten_inputs : Any in method package _forward_single_output_layer(inputs Any, input_size Any, output_layer Any, flatten_inputs Any) : void from class org.texar.modules.encoders.rnn_encoders.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/d20e99508ece5dd4a2805e4b40d9f6a88f44273f,Rename Method,"Location: texar/evals/bleu.py
+Rename Method	package bleu(hypotheses Any, references Any, lowercase Any) : void renamed to package corpus_bleu(list_of_references Any, hypotheses Any, lowercase Any) : void in class org.texar.evals.bleu.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/d2659e9e149cc1f89800ad80fd4f8238c97eb3aa,Change/Rename Parameter,"Location: texar/models/tsf/tsf_classifier_att_lm_rec.py/TSFClassifierAttLMRec
+The parameter(s) ""rho_lmf"" of the method ""feed_dict"" in the class ""TSFClassifierAttLMRec"" is/are changed/renamed to ""rho_lm""",PyRef,TP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package _common_default_conv_dense_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package _common_default_conv_dense_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_conv1d_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_conv1d_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_conv2d_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_conv2d_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_conv3d_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_conv3d_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_conv2d_transpose_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_conv2d_transpose_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_conv3d_transpose_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_conv3d_transpose_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_dense_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_dense_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_dropout_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_dropout_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_flatten_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_flatten_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_max_pooling1d_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_max_pooling1d_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_max_pooling2d_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_max_pooling2d_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_max_pooling3d_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_max_pooling3d_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_separable_conv2d_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_separable_conv2d_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_batch_normalization_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_batch_normalization_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_average_pooling1d_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_average_pooling1d_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_average_pooling2d_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_average_pooling2d_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package default_average_pooling3d_kwargs() : void from class org.texar.core.layers.PyDummyClass2 to package default_average_pooling3d_kwargs() : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package sinusoid_positional_encoding(inputs Any, reuse Any, min_timescale Any, max_timescale Any, variable_scope Any) : void from class org.texar.core.layers.PyDummyClass2 to package sinusoid_positional_encoding(inputs Any, reuse Any, min_timescale Any, max_timescale Any, variable_scope Any) : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package multihead_attention(queries Any, keys Any, keys_padding Any, causality Any, num_heads Any, num_units Any, dropout_rate Any, scope Any) : void from class org.texar.core.layers.PyDummyClass2 to package multihead_attention(queries Any, keys Any, keys_padding Any, causality Any, num_heads Any, num_units Any, dropout_rate Any, scope Any) : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package layer_normalize(inputs Any, epsilon Any, scope Any, reuse Any) : void from class org.texar.core.layers.PyDummyClass2 to package layer_normalize(inputs Any, epsilon Any, scope Any, reuse Any) : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package split_heads(x Any, num_heads Any) : void from class org.texar.core.layers.PyDummyClass2 to package split_heads(x Any, num_heads Any) : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d2ef1ec7ab42403877887fa756408c52a6504dc3,Move Method,"Location: texar/core/layers.py
+Move Method	package combine_heads(x Any) : void from class org.texar.core.layers.PyDummyClass2 to package combine_heads(x Any) : void from class org.texar.core.layers.PyDummyClass3",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/d8a6be44c48df2b420d7cd818c411f029b287645,Add Parameter,"Location: texar/utils/average_recorder.py
+Add Parameter	name : Any in method package __init__(self _SingleAverageRecorder, size Any, name Any) : void from class org.texar.utils.average_recorder._SingleAverageRecorder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/d8a6be44c48df2b420d7cd818c411f029b287645,Add Parameter,"Location: texar/utils/average_recorder.py
+Add Parameter	weight : Any in method package add(self AverageRecorder, record Any, weight Any) : void from class org.texar.utils.average_recorder.AverageRecorder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/da37438735fd4b845bb0874562bd071865c480bb,Remove Parameter,"Location: texar/modules/encoders/rnn_encoders.py/UnidirectionalRNNEncoder
+The parameter(s) ""output_keep_prob"" is/are removed from the method ""__init__"" in the class ""UnidirectionalRNNEncoder""",PyRef,TP,
+https://github.com/asyml/texar/commit/da37438735fd4b845bb0874562bd071865c480bb,Remove Parameter,"Location: texar/modules/encoders/rnn_encoders.py/BidirectionalRNNEncoder
+The parameter(s) ""output_keep_prob"" is/are removed from the method ""__init__"" in the class ""BidirectionalRNNEncoder""",PyRef,TP,
+https://github.com/asyml/texar/commit/da37438735fd4b845bb0874562bd071865c480bb,Remove Parameter,"Location: texar/modules/encoders/rnn_encoders.py/BidirectionalRNNEncoder
+The parameter(s) ""output_keep_prob"" is/are removed from the method ""_build"" in the class ""BidirectionalRNNEncoder""",PyRef,TP,
+https://github.com/asyml/texar/commit/da98baaf6899c5639e23316f2ae00f60f080d14b,Add Parameter,"Location: texar/models/tsf/tsf_classifier_att_lm_rec.py
+Add Parameter	rho_lm : Any in method package train_g_step(self TSFClassifierAttLMRec, sess Any, batch Any, rho_f Any, rho_r Any, rho_lm Any, rho_rec Any, gamma Any) : void from class org.texar.models.tsf.tsf_classifier_att_lm_rec.TSFClassifierAttLMRec Add Parameter	rho_rec : Any in method package train_g_step(self TSFClassifierAttLMRec, sess Any, batch Any, rho_f Any, rho_r Any, rho_lm Any, rho_rec Any, gamma Any) : void from class org.texar.models.tsf.tsf_classifier_att_lm_rec.TSFClassifierAttLMRec
+",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/da98baaf6899c5639e23316f2ae00f60f080d14b,Add Parameter,"Location: texar/models/tsf/tsf_classifier_att_lm_rec.py
+Add Parameter	rho_lm : Any in method package train_ae_step(self TSFClassifierAttLMRec, sess Any, batch Any, rho_f Any, rho_r Any, rho_lm Any, rho_rec Any, gamma Any) : void from class org.texar.models.tsf.tsf_classifier_att_lm_rec.TSFClassifierAttLMRec Add Parameter	rho_rec : Any in method package train_ae_step(self TSFClassifierAttLMRec, sess Any, batch Any, rho_f Any, rho_r Any, rho_lm Any, rho_rec Any, gamma Any) : void from class org.texar.models.tsf.tsf_classifier_att_lm_rec.TSFClassifierAttLMRec",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/da98baaf6899c5639e23316f2ae00f60f080d14b,Add Parameter,"Location: texar/models/tsf/tsf_classifier_att_lm_rec.py
+Add Parameter	rho_lmf : Any in method package feed_dict(self TSFClassifierAttLMRec, batch Any, rho_f Any, rho_r Any, rho_lmf Any, rho_rec Any, gamma Any, is_train Any) : void from class org.texar.models.tsf.tsf_classifier_att_lm_rec.TSFClassifierAttLMRec Add Parameter	rho_rec : Any in method package feed_dict(self TSFClassifierAttLMRec, batch Any, rho_f Any, rho_r Any, rho_lmf Any, rho_rec Any, gamma Any, is_train Any) : void from class org.texar.models.tsf.tsf_classifier_att_lm_rec.TSFClassifierAttLMRec",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/df3053cbc34b7d8fbb592692f7febec109bc5df5,Move Method,"Location: texar/core/layers.py
+Move Method	package shape_list(x Any) : void from class org.texar.core.layers.PyDummyClass3 to package shape_list(x Any) : void from class org.texar.utils.utils.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/e217947a9e34adc009913fe9f1a8d94e9fbab80d,Add Parameter,"Location: txtgen/modules/connectors/connector_base.py/ConnectorBase
+The parameter(s) ""decoder_state_size"" in the class ""ConnectorBase""is/are added to the method ""__init__""",PyRef,TP,
+https://github.com/asyml/texar/commit/e217947a9e34adc009913fe9f1a8d94e9fbab80d,Add Parameter,"Location: txtgen/modules/connectors/connectors.py/ForwardConnector
+The parameter(s) ""decoder_state_size"" in the class ""ForwardConnector""is/are added to the method ""__init__""",PyRef,TP,
+https://github.com/asyml/texar/commit/e217947a9e34adc009913fe9f1a8d94e9fbab80d,Inline Method,"Location: txtgen/modules/connectors/connector_base.py/ConnectorBase
+The method ""connect"" is inlined to the method ""_build"" in the class ""ConnectorBase""",PyRef,TP,
+https://github.com/asyml/texar/commit/e988614f1001348df71190d222faf02224c4e5aa,Move Method,"Location: txtgen/modules/encoders/rnn_encoders.py
+Move Method	package embedding(self ForwardRNNEncoder) : void from class org.txtgen.modules.encoders.rnn_encoders.ForwardRNNEncoder to package embedding(self RNNEncoderBase) : void from class org.txtgen.modules.encoders.rnn_encoders.RNNEncoderBase",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/e988614f1001348df71190d222faf02224c4e5aa,Move Method,"Location: txtgen/modules/encoders/rnn_encoders.py
+Move Method	package cell(self ForwardRNNEncoder) : void from class org.txtgen.modules.encoders.rnn_encoders.ForwardRNNEncoder to package cell(self RNNEncoderBase) : void from class org.txtgen.modules.encoders.rnn_encoders.RNNEncoderBase",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/e988614f1001348df71190d222faf02224c4e5aa,Move Method,"Location: txtgen/modules/encoders/rnn_encoders.py
+Move Method	package state_size(self ForwardRNNEncoder) : void from class org.txtgen.modules.encoders.rnn_encoders.ForwardRNNEncoder to package state_size(self RNNEncoderBase) : void from class org.txtgen.modules.encoders.rnn_encoders.RNNEncoderBase",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/ea6058d72f9eda3e79a1627b63b0ed6148fffbeb,Add Parameter,"Location: texar/modules/memory/memory_network.py
+Add Parameter	mode : Any in method package _build(self MemNetRNNLike, query Any, memory Any, soft_memory Any, mode Any) : void from class org.texar.modules.memory.memory_network.MemNetRNNLike",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/ebec93d0b005e2bbb51892a52604b70537d01a2d,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py
+Add Parameter	return_cell_output : Any in method package _build(self UnidirectionalRNNEncoder, inputs Any, sequence_length Any, initial_state Any, time_major Any, mode Any, return_cell_output Any) : void from class org.texar.modules.encoders.rnn_encoders.UnidirectionalRNNEncoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/edcb42e678e63cd4ef9be891f3e61a9fb3370147,Remove Parameter,"Location: txtgen/modules/decoders/rnn_decoder_base.py/RNNDecoderBase
+The parameter(s) ""decoder_state_size"" is/are removed from the method ""__init__"" in the class ""RNNDecoderBase""",PyRef,TP,
+https://github.com/asyml/texar/commit/f50baed6c1fd2d22a849f909241223053ad396eb,Remove Parameter,"Location: txtgen/modules/decoders/rnn_decoders.py/BasicRNNDecoder
+The parameter(s) ""decoder_state_size"" is/are removed from the method ""__init__"" in the class ""BasicRNNDecoder""",PyRef,TP,
+https://github.com/asyml/texar/commit/f5a2b259b26bc173bf854cf5c8f306a1c21f15fe,Change/Rename Parameter,"Location: txtgen/losses/dqn_losses.py
+The parameter(s) ""q_value"" of the method ""l2_loss"" is/are changed/renamed to ""qvalue""",PyRef,TP,
+https://github.com/asyml/texar/commit/f7900df34f14144ae13c1e27bbe39d3d84887f87,Add Parameter,"Location: texar/modules/embedders/position_embedders.py
+Add Parameter	sequence_length : Any in method package _build(self SinusoidsPositionEmbedder, positions Any, sequence_length Any) : void from class org.texar.modules.embedders.position_embedders.SinusoidsPositionEmbedder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/f86ceee1b4a5cfa7ddc728eabcffc6327e853af3,Extract Method,"Location: texar/modules/decoders/rnn_decoders_test.py/BasicRNNDecoderTest
+The method ""_test_outputs"" is extracted from the method ""test_decode_train"" in the class ""BasicRNNDecoderTest""",PyRef,TP,
+https://github.com/asyml/texar/commit/f9bcfc0c35aecbe611f7b1e46f768cd3b157a879,Add Parameter,"Location: texar/models/seq2seq/basic_seq2seq.py
+Add Parameter	data_hparams : Any in method package __init__(self BasicSeq2seq, data_hparams Any, hparams Any) : void from class org.texar.models.seq2seq.basic_seq2seq.BasicSeq2seq",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/f9bcfc0c35aecbe611f7b1e46f768cd3b157a879,Add Parameter,"Location: texar/run/executor.py
+Add Parameter	max_steps : Any in method package _get_train_spec(self Executor, max_steps Any) : void from class org.texar.run.executor.Executor",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/fae63f0cd82ccb45efb47bf4af09830e44e29920,Change/Rename Parameter,"Location: txtgen/modules/connectors/connectors.py/MLPTransformConnector
+The parameter(s) ""encoder_result"" of the method ""_build"" in the class ""MLPTransformConnector"" is/are changed/renamed to ""inputs""",PyRef,TP,
+https://github.com/asyml/texar/commit/fb7b2f8211510c71dc9de1c48d842254c06a075d,Extract Method,"Location: texar/data/data/mono_text_data.py/MonoTextData
+The method ""_make_other_transformations"" is extracted from the method ""_process_dataset"" in the class ""MonoTextData""",PyRef,TP,
+https://github.com/asyml/texar/commit/fb7b2f8211510c71dc9de1c48d842254c06a075d,Rename Method,"Location: texar/data/data/mono_text_data.py/MonoTextData
+The method ""length_tensor_name"" in the class ""MonoTextData"" is renamed to ""length_name""",PyRef,TP,
+https://github.com/asyml/texar/commit/fb7b2f8211510c71dc9de1c48d842254c06a075d,Rename Method,"Location: texar/data/data/mono_text_data.py/MonoTextData
+The method ""text_id_tensor_name"" in the class ""MonoTextData"" is renamed to ""text_id_name""",PyRef,TP,
+https://github.com/asyml/texar/commit/fb7b2f8211510c71dc9de1c48d842254c06a075d,Rename Method,"Location: texar/data/data/mono_text_data.py/MonoTextData
+The method ""text_tensor_name"" in the class ""MonoTextData"" is renamed to ""text_name""",PyRef,TP,
+https://github.com/asyml/texar/commit/fde48c9344f2aca76ca21e8b42efeb8d911ba7c8,Add Parameter,"Location: texar/core/layers.py
+Add Parameter	kwargs : Any in method package get_activation_fn(fn_name Any, kwargs Any) : void from class org.texar.core.layers.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/fde48c9344f2aca76ca21e8b42efeb8d911ba7c8,Add Parameter,"Location: texar/modules/classifiers/conv_classifiers.py
+Add Parameter	sequence_length : Any in method package _build(self Conv1DClassifier, inputs Any, sequence_length Any, dtype Any, time_major Any, mode Any) : void from class org.texar.modules.classifiers.conv_classifiers.Conv1DClassifier Add Parameter	dtype : Any in method package _build(self Conv1DClassifier, inputs Any, sequence_length Any, dtype Any, time_major Any, mode Any) : void from class org.texar.modules.classifiers.conv_classifiers.Conv1DClassifier
+Add Parameter	time_major : Any in method package _build(self Conv1DClassifier, inputs Any, sequence_length Any, dtype Any, time_major Any, mode Any) : void from class org.texar.modules.classifiers.conv_classifiers.Conv1DClassifier",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/ff0f55dae8cc957ded0eac9680600437fa84714a,Add Parameter,"Location: examples/sequence_tagging/conll_reader.py
+Add Parameter	min_occur : Any in method package create_vocabs(train_path Any, normalize_digits Any, min_occur Any) : void from class org.examples.sequence_tagging.conll_reader.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/ff107ccfe3d954dc72512c8c9cdf14f547c08d8f,Add Parameter,"Location: texar/modules/encoders/hierarchical_encoders_new.py
+Add Parameter	encoder_major_hparams : Any in method package __init__(self HierarchicalRNNEncoder, encoder_major Any, encoder_minor Any, hparams Any, encoder_major_hparams Any, encoder_minor_hparams Any) : void from class org.texar.modules.encoders.hierarchical_encoders_new.HierarchicalRNNEncoder Add Parameter	encoder_minor_hparams : Any in method package __init__(self HierarchicalRNNEncoder, encoder_major Any, encoder_minor Any, hparams Any, encoder_major_hparams Any, encoder_minor_hparams Any) : void from class org.texar.modules.encoders.hierarchical_encoders_new.HierarchicalRNNEncoder",Python-adapted RMiner,TP,
+https://github.com/kkroening/ffmpeg-python/commit/19555472029f57ce2c9caabe757425d8201c0324,Extract Method,"Location: ffmpeg/_view.py
+The method ""_get_node_color"" is extracted from the method ""view""","PyRef,Python-adapted RMiner",TP,
+https://github.com/kkroening/ffmpeg-python/commit/4f97d1d679c3d7aeab703925c665df2370f08980,Add Parameter,"Location: ffmpeg/_view.py
+The parameter(s) ""detail,filename,pipe""is/are added to the method ""view""","PyRef,Python-adapted RMiner",TP,
+https://github.com/kkroening/ffmpeg-python/commit/646a0dcae86db06d153765a2e233199c05ab81b5,Add Parameter,"Location: ffmpeg/nodes.py/Stream
+The parameter(s) ""upstream_selector"" in the class ""Stream""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/kkroening/ffmpeg-python/commit/646a0dcae86db06d153765a2e233199c05ab81b5,Add Parameter,"Location: ffmpeg/nodes.py/Node
+The parameter(s) ""select"" in the class ""Node""is/are added to the method ""stream""","PyRef,Python-adapted RMiner",TP,
+https://github.com/kkroening/ffmpeg-python/commit/646a0dcae86db06d153765a2e233199c05ab81b5,Add Parameter,"Location: ffmpeg/nodes.py/FilterableStream
+The parameter(s) ""upstream_selector"" in the class ""FilterableStream""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/kkroening/ffmpeg-python/commit/8a761f055dd2149aaf15a3a35fc5ed3cb9d8f197,Add Parameter,"Location: ffmpeg/_view.py
+The parameter(s) ""stream_spec""is/are added to the method ""view""","PyRef,Python-adapted RMiner",FP,
+https://github.com/kkroening/ffmpeg-python/commit/f6d014540a3fc0c24037cdc5e871903ad21d5cff,Add Parameter,"Location: ffmpeg/nodes.py/OutputStream
+The parameter(s) ""upstream_selector"" in the class ""OutputStream""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/007e42b10375ee767cd3c1c33860cb8f13fb6e52,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py/UnidirectionalRNNEncoder
+The parameter(s) ""use_embedding"" in the class ""UnidirectionalRNNEncoder""is/are added to the method ""_build""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/007e42b10375ee767cd3c1c33860cb8f13fb6e52,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py/BidirectionalRNNEncoder
+The parameter(s) ""use_embedding"" in the class ""BidirectionalRNNEncoder""is/are added to the method ""_build""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/089fb944936cdd72258e9c21eb9b8c98e78acbf5,Add Parameter,"Location: texar/core/optimization.py
+The parameter(s) ""learning_rate""is/are added to the method ""get_train_op""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/089fb944936cdd72258e9c21eb9b8c98e78acbf5,Add Parameter,"Location: texar/modules/decoders/rnn_decoder_base.py/RNNDecoderBase
+The parameter(s) ""impute_finished"" in the class ""RNNDecoderBase""is/are added to the method ""_build""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/0a07243d64cf7b6770ead65b748f64c1117982c7,Rename Method,"Location: txtgen/data/vocabulary_test.py/VocabularyTest
+The method ""test_vocab_load"" in the class ""VocabularyTest"" is renamed to ""test_vocab_construction""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/0b93811a3ed5b8098190ada79695b86397372e8b,Extract Method,"Location: txtgen/core/utils.py
+The method ""get_class"" is extracted from the method ""get_instance""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/15c89efc11b4e7ad9789f264fb53e327fb72f25d,Add Parameter,"Location: texar/core/layers.py
+The parameter(s) ""queries_valid_length,keys_valid_length""is/are added to the method ""multihead_attention""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/15c89efc11b4e7ad9789f264fb53e327fb72f25d,Add Parameter,"Location: texar/modules/decoders/transformer_decoders.py/TransformerDecoder
+The parameter(s) ""src_length,tgt_length"" in the class ""TransformerDecoder""is/are added to the method ""_build""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/15c89efc11b4e7ad9789f264fb53e327fb72f25d,Add Parameter,"Location: texar/modules/encoders/transformer_encoders.py/TransformerEncoder
+The parameter(s) ""inputs_length"" in the class ""TransformerEncoder""is/are added to the method ""_build""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/1629d23ed2688462f9a539b1142cb5088270bef5,Add Parameter,"Location: texar/models/tsf/tsf_classifier_lm.py/TSFClassifierLM
+The parameter(s) ""rho_lm"" in the class ""TSFClassifierLM""is/are added to the method ""eval_step""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/1c499b27e225d0c3b8634347c1bb924e26842cd1,Add Parameter,"Location: txtgen/modules/decoders/rnn_decoders.py/BasicRNNDecoder
+The parameter(s) ""embedding,embedding_trainable"" in the class ""BasicRNNDecoder""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/1c499b27e225d0c3b8634347c1bb924e26842cd1,Change/Rename Parameter,"Location: txtgen/modules/decoders/rnn_decoder_helpers.py
+The parameter(s) ""start_token"" of the method ""make_helper"" is/are changed/renamed to ""start_tokens""",PyRef,TP,
+https://github.com/asyml/texar/commit/28a5c5a4c091cd22e4aa893e45440ea59376e575,Add Parameter,"Location: txtgen/hyperparams.py/HParams
+The parameter(s) ""allow_new_hparam"" in the class ""HParams""is/are added to the method ""_parse""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/28a5c5a4c091cd22e4aa893e45440ea59376e575,Extract Method,"Location: txtgen/hyperparams.py
+Extract Method	package _parse_value(name Any, value Any) : void extracted from package _parse(hparams Any, default_hparams Any) : void in class org.txtgen.hyperparams.HParams",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/297047cae73728e5f391b558b64aaa94e2a5c323,Pull Up Method,"Location: texar/data/data/text_data_base.py
+The method ""_shuffle_dataset"" of the class ""TextDataBase""in the file ""texar/data/data/text_data_base.py""is pulled up to the class ""DataBase""in the file ""texar/data/data/data_base.py""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/348fe606caf81291f9122e3d0cd68868009e181d,Add Parameter,"Location: texar/agents/agent_base.py/AgentBase
+The parameter(s) ""actions,state_shape"" in the class ""AgentBase""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/348fe606caf81291f9122e3d0cd68868009e181d,Change/Rename Parameter,"Location: texar/agents/agent_base.py/AgentBase
+The parameter(s) ""action"" of the method ""perceive"" in the class ""AgentBase"" is/are changed/renamed to ""action_id""",PyRef,TP,
+https://github.com/asyml/texar/commit/39ce9959f9219487dadf5d6d6b585970bfea9996,Add Parameter,"Location: texar/models/tsf/tsf_classifier.py/TSFClassifier
+The parameter(s) ""rho_r"" in the class ""TSFClassifier""is/are added to the method ""eval_step""",PyRef,CTP,"Conditional true positive: parameter got split, thus one parameter is added. As split parameter is not supported yet, we consider it as CTP"
+https://github.com/asyml/texar/commit/39ce9959f9219487dadf5d6d6b585970bfea9996,Remove Parameter,"Location: texar/models/tsf/tsf_classifier.py/TSFClassifier
+The parameter(s) ""rho_r"" is/are removed from the method ""train_d_step"" in the class ""TSFClassifier""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/39ce9959f9219487dadf5d6d6b585970bfea9996,Rename Method,"Location: texar/models/tsf/tsf_classifier.py/TSFClassifier
+The method ""train_g_step"" in the class ""TSFClassifier"" is renamed to ""train_ae_step""",PyRef,FP,
+https://github.com/asyml/texar/commit/39ce9959f9219487dadf5d6d6b585970bfea9996,Add Parameter,"Location: texar/models/tsf/tsf_classifier.py/TSFClassifier
+The parameter(s) ""rho_r"" in the class ""TSFClassifier""is/are added to the method ""train_g_step""",PyRef,FP,
+https://github.com/asyml/texar/commit/39ce9959f9219487dadf5d6d6b585970bfea9996,Rename Method,"Location: texar/models/tsf/tsf_classifier.py/TSFClassifier
+The method ""train_ae_step"" in the class ""TSFClassifier"" is renamed to ""train_g_step""",PyRef,FP,
+https://github.com/asyml/texar/commit/39ce9959f9219487dadf5d6d6b585970bfea9996,Add Parameter,"Location: texar/models/tsf/tsf_classifier.py/TSFClassifier
+The parameter(s) ""rho_r"" in the class ""TSFClassifier""is/are added to the method ""train_ae_step""",PyRef,FP,
+https://github.com/asyml/texar/commit/3d93e8bf15bb7f6f2e9b4b36c290e9c3490ce796,Add Parameter,"Location: texar/models/tsf/tsf_classifier_att_lm_rec.py/TSFClassifierAttLMRec
+The parameter(s) ""rho_lm,rho_rec"" in the class ""TSFClassifierAttLMRec""is/are added to the method ""eval_step""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/406f63d3c86d9f81931da80c7e0595518b42132f,Rename Method,"Location: txtgen/modules/module_base.py/ModuleBase
+The method ""variables"" in the class ""ModuleBase"" is renamed to ""trainable_variables""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/41ba77ab8f310473ccc1b8b1c8845e43d74fd12e,Add Parameter,"Location: texar/models/tsf/attention.py/AttentionLayer
+The parameter(s) ""mask"" in the class ""AttentionLayer""is/are added to the method ""call""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/41ba77ab8f310473ccc1b8b1c8845e43d74fd12e,Add Parameter,"Location: texar/models/tsf/attention_decoder.py/AttentionDecoder
+The parameter(s) ""mask"" in the class ""AttentionDecoder""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/42efaa53edce9b84a98fef1fce24502e6d2ba941,Add Parameter,"Location: texar/core/layers.py
+The parameter(s) ""subscope""is/are added to the method ""get_embedding""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/49d7dd085555a2335c4a3d639b639f5e39637971,Change/Rename Parameter,"Location: txtgen/modules/connectors/connector_base.py/ConnectorBase
+The parameter(s) ""decoder_state_size"" of the method ""__init__"" in the class ""ConnectorBase"" is/are changed/renamed to ""output_size""",PyRef,TP,
+https://github.com/asyml/texar/commit/49d7dd085555a2335c4a3d639b639f5e39637971,Change/Rename Parameter,"Location: txtgen/modules/connectors/connectors.py/ReparameterizedStochasticConnector
+The parameter(s) ""decoder_state_size"" of the method ""__init__"" in the class ""ReparameterizedStochasticConnector"" is/are changed/renamed to ""output_size""",PyRef,TP,
+https://github.com/asyml/texar/commit/632596ae718297a6c36bf87c8303298d672fd851,Extract Method,"Location: texar/utils/utils.py
+The method ""is_train_mode"" is extracted from the method ""switch_dropout""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/6426fc937946517f208e0b8525d7f85afb952cef,Add Parameter,"Location: texar/modules/decoders/rnn_decoders.py/AttentionRNNDecoder
+The parameter(s) ""output_layer"" in the class ""AttentionRNNDecoder""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/6426fc937946517f208e0b8525d7f85afb952cef,Pull Up Method,"Location: texar/modules/decoders/rnn_decoders.py
+The method ""_rnn_output_size"" of the class ""BasicRNNDecoder""in the file ""texar/modules/decoders/rnn_decoders.py""is pulled up to the class ""RNNDecoderBase""in the file ""texar/modules/decoders/rnn_decoder_base.py""",PyRef,TP,
+https://github.com/asyml/texar/commit/6753612fae020893134e643e8c5fecaef059a964,Rename Method,"Location: texar/core/utils.py
+The method ""sequence_embedding_soft_mix"" is renamed to ""soft_sequence_embedding""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/6cb36d56d73901c2a8379ae7133a0add10f677d9,Add Parameter,"Location: texar/data/data/multi_aligned_data_test.py/MultiAlignedDataTest
+The parameter(s) ""discard_did"" in the class ""MultiAlignedDataTest""is/are added to the method ""_run_and_test""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/6cb36d56d73901c2a8379ae7133a0add10f677d9,Add Parameter,"Location: texar/data/data/paired_text_data_test.py/PairedTextDataTest
+The parameter(s) ""discard_src"" in the class ""PairedTextDataTest""is/are added to the method ""_run_and_test""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/6cb36d56d73901c2a8379ae7133a0add10f677d9,Move Method,"Location: texar/data/data/data_utils.py
+Move Method	package maybe_tuple(data Any) : void from class org.texar.data.data.data_utils.PyDummyClass2 to package maybe_tuple(data Any) : void from class org.texar.data.data.data_utils.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/6cb36d56d73901c2a8379ae7133a0add10f677d9,Move Method,"Location: texar/data/data/data_utils.py
+Move Method	package make_partial(fn Any) : void from class org.texar.data.data.data_utils.PyDummyClass2 to package make_partial(fn Any) : void from class org.texar.data.data.data_utils.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/6cb36d56d73901c2a8379ae7133a0add10f677d9,Move Method,"Location: texar/data/data/data_utils.py
+Move Method	package name_prefix_fn(name_prefix Any) : void from class org.texar.data.data.data_utils.PyDummyClass2 to package name_prefix_fn(name_prefix Any) : void from class org.texar.data.data.data_utils.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/6cb36d56d73901c2a8379ae7133a0add10f677d9,Move Method,"Location: texar/data/data/data_utils.py
+Move Method	package make_chained_transformation(tran_fns Any) : void from class org.texar.data.data.data_utils.PyDummyClass2 to package make_chained_transformation(tran_fns Any) : void from class org.texar.data.data.data_utils.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/6cb36d56d73901c2a8379ae7133a0add10f677d9,Move Method,"Location: texar/data/data/data_utils.py
+Move Method	package make_combined_transformation(tran_fns Any, name_prefix Any) : void from class org.texar.data.data.data_utils.PyDummyClass2 to package make_combined_transformation(tran_fns Any, name_prefix Any) : void from class org.texar.data.data.data_utils.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/6cb36d56d73901c2a8379ae7133a0add10f677d9,Move Method,"Location: texar/data/data/data_utils.py
+Move Method	package random_shard_dataset(dataset_size Any, shard_size Any, seed Any) : void from class org.texar.data.data.data_utils.PyDummyClass2 to package random_shard_dataset(dataset_size Any, shard_size Any, seed Any) : void from class org.texar.data.data.data_utils.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/6cb36d56d73901c2a8379ae7133a0add10f677d9,Move Method,"Location: texar/data/data/data_utils.py
+Move Method	package count_file_lines(filenames Any) : void from class org.texar.data.data.data_utils.PyDummyClass2 to package count_file_lines(filenames Any) : void from class org.texar.data.data.data_utils.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/6cb36d56d73901c2a8379ae7133a0add10f677d9,Rename Method,"Location: texar/data/data/mono_text_data.py/MonoTextData
+The method ""_make_length_fn"" in the class ""MonoTextData"" is renamed to ""_make_bucket_length_fn""",PyRef,TP,
+https://github.com/asyml/texar/commit/6cb36d56d73901c2a8379ae7133a0add10f677d9,Rename Method,"Location: texar/data/data/multi_aligned_data.py/MultiAlignedData
+The method ""_make_length_fn"" in the class ""MultiAlignedData"" is renamed to ""_make_bucket_length_fn""",PyRef,TP,
+https://github.com/asyml/texar/commit/6cb36d56d73901c2a8379ae7133a0add10f677d9,Rename Method,"Location: texar/data/data/paired_text_data.py/PairedTextData
+The method ""_make_length_fn"" in the class ""PairedTextData"" is renamed to ""_make_bucket_length_fn""",PyRef,TP,
+https://github.com/asyml/texar/commit/7d45b77b3f6d41a7e920afad6113b00c315b7cc8,Change/Rename Parameter,"Location: txtgen/losses/rl_lossess.py
+The parameter(s) ""policy"" of the method ""reinforce_loss_with_MCtree"" is/are changed/renamed to ""sample_fn""",PyRef,TP,
+https://github.com/asyml/texar/commit/7d45b77b3f6d41a7e920afad6113b00c315b7cc8,Change/Rename Parameter,"Location: txtgen/losses/rl_lossess.py
+The parameter(s) ""policy"" of the method ""reinforce_loss_with_MCtree"" is/are changed/renamed to ""sample_fn""",PyRef,TP,
+https://github.com/asyml/texar/commit/7fa43b2b41419d18632be582e3eda50413185415,Add Parameter,"Location: texar/losses/mle_losses.py
+The parameter(s) ""dtype""is/are added to the method ""_mask_sequences""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/80e9e26deca028ef6b1b51c307b61bb305dc9b1c,Add Parameter,"Location: txtgen/data/embedding.py
+The parameter(s) ""word_vecs""is/are added to the method ""load_word2vec""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/80e9e26deca028ef6b1b51c307b61bb305dc9b1c,Add Parameter,"Location: txtgen/data/embedding.py
+Add Parameter	word_vecs : Any in method package load_word2vec(filename Any, vocab Any, word_vecs Any) : void from class org.txtgen.data.embedding.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/80e9e26deca028ef6b1b51c307b61bb305dc9b1c,Add Parameter,"Location: txtgen/modules/encoders/rnn_encoders.py
+Add Parameter	embedding : Any in method package __init__(self ForwardRNNEncoder, cell Any, embedding Any, embedding_trainable Any, vocab_size Any, hparams Any, name Any) : void from class org.txtgen.modules.encoders.rnn_encoders.ForwardRNNEncoder Add Parameter	embedding_trainable : Any in method package __init__(self ForwardRNNEncoder, cell Any, embedding Any, embedding_trainable Any, vocab_size Any, hparams Any, name Any) : void from class org.txtgen.modules.encoders.rnn_encoders.ForwardRNNEncoder
+Add Parameter	vocab_size : Any in method package __init__(self ForwardRNNEncoder, cell Any, embedding Any, embedding_trainable Any, vocab_size Any, hparams Any, name Any) : void from class org.txtgen.modules.encoders.rnn_encoders.ForwardRNNEncoder",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/80e9e26deca028ef6b1b51c307b61bb305dc9b1c,Change/Rename Parameter,"Location: txtgen/core/utils.py
+The parameter(s) ""args"" of the method ""get_instance"" is/are changed/renamed to ""kwargs""",PyRef,TP,
+https://github.com/asyml/texar/commit/895b71719b3f1e2fadff01112a30f7ad4d52c17e,Add Parameter,"Location: examples/tsf/trainer_base.py/TrainerBase
+The parameter(s) ""self"" in the class ""TrainerBase""is/are added to the method ""default_hparams""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/895b71719b3f1e2fadff01112a30f7ad4d52c17e,Add Parameter,"Location: examples/tsf/trainer_base.py
+Add Parameter	self : TrainerBase in method package train(self TrainerBase) : void from class org.examples.tsf.trainer_base.TrainerBase",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/895b71719b3f1e2fadff01112a30f7ad4d52c17e,Move Method,"Location: examples/tsf/data_utils.py
+The method ""load_data"" in the file ""examples/tsf/data_utils.py""is moved to the file ""examples/tsf/utils.py""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/895b71719b3f1e2fadff01112a30f7ad4d52c17e,Move Method,"Location: examples/tsf/data_utils.py
+The method ""data_to_id"" in the file ""examples/tsf/data_utils.py""is moved to the file ""examples/tsf/utils.py""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/895b71719b3f1e2fadff01112a30f7ad4d52c17e,Move Method,"Location: examples/tsf/tsf_utils.py
+The method ""makeup"" in the file ""examples/tsf/tsf_utils.py""is moved to the file ""examples/tsf/utils.py""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/895b71719b3f1e2fadff01112a30f7ad4d52c17e,Move Method,"Location: examples/tsf/tsf_utils.py
+The method ""strip_eos"" in the file ""examples/tsf/tsf_utils.py""is moved to the file ""examples/tsf/utils.py""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/895b71719b3f1e2fadff01112a30f7ad4d52c17e,Move Method,"Location: examples/tsf/tsf_utils.py
+The method ""logits2word"" in the file ""examples/tsf/tsf_utils.py""is moved to the file ""examples/tsf/utils.py""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/895b71719b3f1e2fadff01112a30f7ad4d52c17e,Move Method,"Location: examples/tsf/tsf_utils.py
+The method ""write_sent"" in the file ""examples/tsf/tsf_utils.py""is moved to the file ""examples/tsf/utils.py""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/895b71719b3f1e2fadff01112a30f7ad4d52c17e,Move Method,"Location: examples/tsf/tsf_utils.py
+The method ""reorder"" in the file ""examples/tsf/tsf_utils.py""is moved to the file ""examples/tsf/utils.py""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/956c005ec7eb252af12328c74d224f4770b5ac08,Add Parameter,"Location: texar/modules/encoders/conv1d_discriminator.py/CNN
+The parameter(s) ""gamma"" in the class ""CNN""is/are added to the method ""_build""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/956c005ec7eb252af12328c74d224f4770b5ac08,Remove Parameter,"Location: texar/modules/encoders/conv1d_discriminator.py/CNN
+The parameter(s) ""gamma"" is/are removed from the method ""__init__"" in the class ""CNN""",PyRef,TP,
+https://github.com/asyml/texar/commit/9a80ea5944ab0b7911228d529ba7d0dad4443481,Add Parameter,"Location: examples/tsf/stats.py/TSFClassifierStats
+The parameter(s) ""af,ar,as_,w_af,w_ar,w_as"" in the class ""TSFClassifierStats""is/are added to the method ""append""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/a4d5860e9255bf1bcf83f8a9956d2b0d8a162b9b,Add Parameter,"Location: texar/data/data/text_data_test.py/MonoTextDataTest
+The parameter(s) ""length_inc"" in the class ""MonoTextDataTest""is/are added to the method ""_run_and_test""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/a4d5860e9255bf1bcf83f8a9956d2b0d8a162b9b,Pull Up Method,"Location: texar/data/data/mono_text_data.py
+The method ""_shuffle_dataset"" of the class ""MonoTextData""in the file ""texar/data/data/mono_text_data.py""is pulled up to the class ""TextDataBase""in the file ""texar/data/data/text_data_base.py""",PyRef,TP,
+https://github.com/asyml/texar/commit/a4d5860e9255bf1bcf83f8a9956d2b0d8a162b9b,Pull Up Method,"Location: texar/data/data/mono_text_data.py
+The method ""_make_batch"" of the class ""MonoTextData""in the file ""texar/data/data/mono_text_data.py""is pulled up to the class ""TextDataBase""in the file ""texar/data/data/text_data_base.py""",PyRef,TP,
+https://github.com/asyml/texar/commit/a4d5860e9255bf1bcf83f8a9956d2b0d8a162b9b,Rename Method,"Location: texar/data/data/mono_text_data.py/MonoTextData
+The method ""_perform_other_transformations"" in the class ""MonoTextData"" is renamed to ""_process_dataset""",PyRef,FP,
+https://github.com/asyml/texar/commit/a4d5860e9255bf1bcf83f8a9956d2b0d8a162b9b,Remove Parameter,"Location: texar/data/data/mono_text_data.py/MonoTextData
+The parameter(s) ""length_inc"" is/are removed from the method ""_perform_other_transformations"" in the class ""MonoTextData""",PyRef,TP,
+https://github.com/asyml/texar/commit/a4d5860e9255bf1bcf83f8a9956d2b0d8a162b9b,Change/Rename Parameter,"Location: texar/data/data/text_data_test.py/MonoTextDataTest
+The parameter(s) ""data"" of the method ""_transform"" in the class ""MonoTextDataTest"" is/are changed/renamed to ""text_data""",PyRef,TP,
+https://github.com/asyml/texar/commit/a91b6d5f249e4307c079642d9d369116fb3c62d6,Add Parameter,"Location: texar/models/tsf/tsf_classifier_lm_rec_adv.py/TSFClassifierLMRecAdv
+The parameter(s) ""gamma"" in the class ""TSFClassifierLMRecAdv""is/are added to the method ""train_d1_step""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/a91b6d5f249e4307c079642d9d369116fb3c62d6,Add Parameter,"Location: texar/models/tsf/tsf_classifier_lm_rec_adv.py/TSFClassifierLMRecAdv
+The parameter(s) ""gamma"" in the class ""TSFClassifierLMRecAdv""is/are added to the method ""train_d1_step""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/a91b6d5f249e4307c079642d9d369116fb3c62d6,Add Parameter,"Location: texar/modules/decoders/rnn_decoder_helpers.py/SoftmaxEmbeddingHelper
+The parameter(s) ""use_finish"" in the class ""SoftmaxEmbeddingHelper""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/a91b6d5f249e4307c079642d9d369116fb3c62d6,Add Parameter,"Location: texar/modules/decoders/rnn_decoder_helpers.py/GumbelSoftmaxEmbeddingHelper
+The parameter(s) ""use_finish"" in the class ""GumbelSoftmaxEmbeddingHelper""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/abd6d92ad49f371e7b2ab333346d3f1be1105b3a,Add Parameter,"Location: texar/models/tsf/tsf_classifier_att_lm_rec_adv.py/TSFClassifierAttLMRecAdv
+The parameter(s) ""gamma"" in the class ""TSFClassifierAttLMRecAdv""is/are added to the method ""train_d1_step""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/abd6d92ad49f371e7b2ab333346d3f1be1105b3a,Add Parameter,"Location: texar/models/tsf/tsf_classifier_att_lm_rec_adv.py/TSFClassifierAttLMRecAdv
+The parameter(s) ""gamma"" in the class ""TSFClassifierAttLMRecAdv""is/are added to the method ""train_d1_step""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/ac7f531d0f18592c7c6c673b2f0551222a742ea4,Move Method,"Location: texar/core/explorations.py
+Move Method	package default_hparams() : void from class org.texar.core.explorations.EpsilonDecayExploration to package default_hparams() : void from class org.texar.core.explorations.EpsilonLinearDecayExploration",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/ac7f531d0f18592c7c6c673b2f0551222a742ea4,Rename Method,"Location: texar/modules/q_nets/q_nets.py/NatureQNet
+The method ""update_target"" in the class ""NatureQNet"" is renamed to ""copy_qnet_to_target""",PyRef,TP,
+https://github.com/asyml/texar/commit/ac7f531d0f18592c7c6c673b2f0551222a742ea4,Rename Method,"Location: texar/core/explorations.py/ExplorationBase
+The method """" in the class ""ExplorationBase"" is renamed to """"",PyRef,FP,
+https://github.com/asyml/texar/commit/ac7f531d0f18592c7c6c673b2f0551222a742ea4,Add Parameter,"Location: texar/core/explorations.py/ExplorationBase
+The parameter(s) ""timestep"" in the class ""ExplorationBase""is/are added to the method """"","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/ae790882194a6ebe252717d6d78f79d6951d8fca,Add Parameter,"Location: txtgen/modules/encoders/rnn_encoders.py/ForwardRNNEncoder
+The parameter(s) ""sequence_length,initial_state"" in the class ""ForwardRNNEncoder""is/are added to the method ""_build""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/b3342000e26b993d7cdc47403fabf18d6b23d5b1,Add Parameter,"Location: texar/models/tsf/attention.py/AttentionLayer
+The parameter(s) ""mask"" in the class ""AttentionLayer""is/are added to the method ""__call__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/b3c391228e6132419735febb397f31089458240d,Move Method,"Location: texar/core/layers.py
+Move Method	package get_layer(hparams Any) : void from class org.texar.core.layers.PyDummyClass2 to package get_layer(hparams Any) : void from class org.texar.core.layers.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/b3c391228e6132419735febb397f31089458240d,Move Method,"Location: texar/core/layers_test.py
+Move Method	package test_get_embedding(self GetRNNCellTest) : void from class org.texar.core.layers_test.GetRNNCellTest to package test_get_embedding(self GetEmbeddingTest) : void from class org.texar.core.layers_test.GetEmbeddingTest",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/b3c391228e6132419735febb397f31089458240d,Move Method,"Location: texar/core/layers_test.py
+Move Method	package test_get_layer(self GetRNNCellTest) : void from class org.texar.core.layers_test.GetRNNCellTest to package test_get_layer(self GetLayerTest) : void from class org.texar.core.layers_test.GetLayerTest",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/b3c391228e6132419735febb397f31089458240d,Rename Method,"Location: texar/core/layers.py
+The method ""_default_regularizer_hparams"" is renamed to ""default_regularizer_hparams""",PyRef,TP,
+https://github.com/asyml/texar/commit/bd07ec80a7e7a59623583863c92f3598fc33de8a,Add Parameter,"Location: txtgen/core/layers.py
+The parameter(s) ""num_units""is/are added to the method ""multihead_attention""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/bd07ec80a7e7a59623583863c92f3598fc33de8a,Add Parameter,"Location: txtgen/core/layers.py
+The parameter(s) ""num_units""is/are added to the method ""sinusoid_positional_encoding""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/c62983c0b1c28757f02cf99a10fbf27f37492b93,Change/Rename Parameter,"Location: txtgen/models/tsf/ops.py
+The parameter(s) ""h"" of the method ""rnn_decode"" is/are changed/renamed to ""state""",PyRef,TP,
+https://github.com/asyml/texar/commit/c7dc812ea30ff28db0667ecdca11705a5b268758,Remove Parameter,"Location: txtgen/core/layers.py
+The parameter(s) ""num_units"" is/are removed from the method ""multihead_attention""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/c7dc812ea30ff28db0667ecdca11705a5b268758,Rename Method,"Location: txtgen/core/layers.py
+The method ""sinuoid_positional_encoding"" is renamed to ""sinusoid_positional_encoding""",PyRef,TP,
+https://github.com/asyml/texar/commit/c8523b2dc735a1b82ca6170e6ca349defe9f77fc,Add Parameter,"Location: txtgen/core/layers.py
+The parameter(s) ""max_time""is/are added to the method ""sinusoid_positional_encoding""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/c8523b2dc735a1b82ca6170e6ca349defe9f77fc,Remove Parameter,"Location: txtgen/core/layers.py
+The parameter(s) ""max_time"" is/are removed from the method ""multihead_attention""",PyRef,TP,
+https://github.com/asyml/texar/commit/caca2348bd54ec25d71ee05fd2a58e12db39f2e4,Add Parameter,"Location: texar/modules/decoders/rnn_decoder_base.py/RNNDecoderBase
+The parameter(s) ""cell_dropout_mode"" in the class ""RNNDecoderBase""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/caca2348bd54ec25d71ee05fd2a58e12db39f2e4,Add Parameter,"Location: texar/modules/decoders/rnn_decoders.py/BasicRNNDecoder
+The parameter(s) ""cell_dropout_mode"" in the class ""BasicRNNDecoder""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/caca2348bd54ec25d71ee05fd2a58e12db39f2e4,Add Parameter,"Location: texar/modules/decoders/rnn_decoders.py/AttentionRNNDecoder
+The parameter(s) ""cell_dropout_mode"" in the class ""AttentionRNNDecoder""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/caca2348bd54ec25d71ee05fd2a58e12db39f2e4,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py/UnidirectionalRNNEncoder
+The parameter(s) ""cell_dropout_mode"" in the class ""UnidirectionalRNNEncoder""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/caca2348bd54ec25d71ee05fd2a58e12db39f2e4,Add Parameter,"Location: texar/modules/encoders/rnn_encoders.py/BidirectionalRNNEncoder
+The parameter(s) ""cell_dropout_mode"" in the class ""BidirectionalRNNEncoder""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/cc4a397586c6dc8c2de95773572bf3ab318a8371,Add Parameter,"Location: texar/core/layers.py
+The parameter(s) ""mode""is/are added to the method ""get_rnn_cell""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/cc4a397586c6dc8c2de95773572bf3ab318a8371,Extract Method,"Location: texar/context.py
+Extract Method	package global_mode() : void extracted from package is_train() : void in class org.texar.context.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/cc4a397586c6dc8c2de95773572bf3ab318a8371,Rename Method,"Location: texar/context.py
+The method ""is_train"" is renamed to ""global_mode""",PyRef,TP,
+https://github.com/asyml/texar/commit/cfad7345b8d6f62dab5426444eb5d3b3800509ae,Move Method,"Location: texar/data/data/dataset_utils.py
+The method ""count_file_lines"" in the file ""texar/data/data/dataset_utils.py""is moved to the file ""texar/data/data_utils.py""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/cfad7345b8d6f62dab5426444eb5d3b3800509ae,Move Method,"Location: texar/data/data/dataset_utils.py
+The method ""_count_lines"" in the file ""texar/data/data/dataset_utils.py""is moved to the file ""texar/data/data_utils.py""",PyRef,TP,
+https://github.com/asyml/texar/commit/cfad7345b8d6f62dab5426444eb5d3b3800509ae,Move Method,"Location: tools/make_vocab.py
+The method ""make_vocab"" in the file ""tools/make_vocab.py""is moved to the file ""texar/data/data_utils.py""",PyRef,FP,
+https://github.com/asyml/texar/commit/d8603e6f27585fc828e7ea1cafbdb829523b291b,Rename Method,"Location: texar/core/replay_memories.py/ReplayMemoryBase
+The method ""push"" in the class ""ReplayMemoryBase"" is renamed to ""add""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/d8603e6f27585fc828e7ea1cafbdb829523b291b,Rename Method,"Location: texar/core/replay_memories.py/DequeReplayMemory
+The method ""push"" in the class ""DequeReplayMemory"" is renamed to ""add""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/d8603e6f27585fc828e7ea1cafbdb829523b291b,Rename Method,"Location: texar/core/replay_memories.py/DequeReplayMemory
+The method ""sample"" in the class ""DequeReplayMemory"" is renamed to ""get""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/d8603e6f27585fc828e7ea1cafbdb829523b291b,Rename Method,"Location: texar/core/replay_memories.py
+Rename Method	package sample(self ReplayMemoryBase, size Any) : void renamed to package get(self ReplayMemoryBase, size Any) : void in class org.texar.core.replay_memories.ReplayMemoryBase",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/dba2d97f538ef566df8a6649713f877d56496a08,Rename Method,"Location: txtgen/modules/decoders/rnn_decoder_helpers.py
+The method ""make_helper"" is renamed to ""get_helper""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/de6d802b480f1504d060915dc520bef9223aac84,Add Parameter,"Location: texar/data/data/mono_text_data.py/MonoTextData
+The parameter(s) ""name_prefix"" in the class ""MonoTextData""is/are added to the method ""_make_processor""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/de6d802b480f1504d060915dc520bef9223aac84,Add Parameter,"Location: texar/data/data/scalar_data.py/ScalarData
+The parameter(s) ""name_prefix"" in the class ""ScalarData""is/are added to the method ""_make_processor""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/de6d802b480f1504d060915dc520bef9223aac84,Move Method,"Location: texar/data/data/data_utils.py
+Move Method	package maybe_tuple(data Any) : void from class org.texar.data.data.data_utils.PyDummyClass1 to package maybe_tuple(data Any) : void from class org.texar.data.data.data_utils.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/de6d802b480f1504d060915dc520bef9223aac84,Move Method,"Location: texar/data/data/data_utils.py
+Move Method	package make_partial(fn Any) : void from class org.texar.data.data.data_utils.PyDummyClass1 to package make_partial(fn Any) : void from class org.texar.data.data.data_utils.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/de6d802b480f1504d060915dc520bef9223aac84,Move Method,"Location: texar/data/data/data_utils.py
+Move Method	package make_chained_transformation(tran_fns Any) : void from class org.texar.data.data.data_utils.PyDummyClass1 to package make_chained_transformation(tran_fns Any) : void from class org.texar.data.data.data_utils.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/de6d802b480f1504d060915dc520bef9223aac84,Move Method,"Location: texar/data/data/data_utils.py
+Move Method	package make_combined_transformation(tran_fns Any, name_prefix Any) : void from class org.texar.data.data.data_utils.PyDummyClass1 to package make_combined_transformation(tran_fns Any, name_prefix Any) : void from class org.texar.data.data.data_utils.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/de6d802b480f1504d060915dc520bef9223aac84,Move Method,"Location: texar/data/data/data_utils.py
+Move Method	package random_shard_dataset(dataset_size Any, shard_size Any, seed Any) : void from class org.texar.data.data.data_utils.PyDummyClass1 to package random_shard_dataset(dataset_size Any, shard_size Any, seed Any) : void from class org.texar.data.data.data_utils.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/de6d802b480f1504d060915dc520bef9223aac84,Move Method,"Location: texar/data/data/data_utils.py
+Move Method	package count_file_lines(filenames Any) : void from class org.texar.data.data.data_utils.PyDummyClass1 to package count_file_lines(filenames Any) : void from class org.texar.data.data.data_utils.PyDummyClass2",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/e02f1a379696f66da7c2aff83e1f4af52f894614,Add Parameter,"Location: txtgen/modules/connectors/connectors.py/ConcatConnector
+The parameter(s) ""transform"" in the class ""ConcatConnector""is/are added to the method ""_build""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/e02f1a379696f66da7c2aff83e1f4af52f894614,Change/Rename Parameter,"Location: txtgen/modules/connectors/connectors.py/ConstantConnector
+The parameter(s) ""decoder_state_size"" of the method ""__init__"" in the class ""ConstantConnector"" is/are changed/renamed to ""output_size""",PyRef,TP,
+https://github.com/asyml/texar/commit/e02f1a379696f66da7c2aff83e1f4af52f894614,Change/Rename Parameter,"Location: txtgen/modules/connectors/connectors.py/ForwardConnector
+The parameter(s) ""decoder_state_size"" of the method ""__init__"" in the class ""ForwardConnector"" is/are changed/renamed to ""output_size""",PyRef,TP,
+https://github.com/asyml/texar/commit/e02f1a379696f66da7c2aff83e1f4af52f894614,Change/Rename Parameter,"Location: txtgen/modules/connectors/connectors.py/MLPTransformConnector
+The parameter(s) ""decoder_state_size"" of the method ""__init__"" in the class ""MLPTransformConnector"" is/are changed/renamed to ""output_size""",PyRef,TP,
+https://github.com/asyml/texar/commit/e02f1a379696f66da7c2aff83e1f4af52f894614,Change/Rename Parameter,"Location: txtgen/modules/connectors/connectors.py/StochasticConnector
+The parameter(s) ""decoder_state_size"" of the method ""__init__"" in the class ""StochasticConnector"" is/are changed/renamed to ""output_size""",PyRef,TP,
+https://github.com/asyml/texar/commit/e02f1a379696f66da7c2aff83e1f4af52f894614,Change/Rename Parameter,"Location: txtgen/modules/connectors/connectors.py/ConcatConnector
+The parameter(s) ""decoder_state_size"" of the method ""__init__"" in the class ""ConcatConnector"" is/are changed/renamed to ""output_size""",PyRef,TP,
+https://github.com/asyml/texar/commit/e16ffc89ed8330a13a9c3b33dc6e2e84dab00160,Add Parameter,"Location: texar/models/tsf/attention_decoder.py/AttentionDecoder
+The parameter(s) ""output_layer"" in the class ""AttentionDecoder""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/e1dba7bcd77899f2477b5fe37b247320d628cd73,Add Parameter,"Location: texar/models/tsf/classifier.py/Classifier
+The parameter(s) ""gamma"" in the class ""Classifier""is/are added to the method ""train_step""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/e1dba7bcd77899f2477b5fe37b247320d628cd73,Add Parameter,"Location: texar/models/tsf/classifier.py/Classifier
+The parameter(s) ""gamma"" in the class ""Classifier""is/are added to the method ""train_step""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/e4d934bf3c19873071700043d7a4c262b4fb89b9,Add Parameter,"Location: txtgen/modules/decoders/rnn_decoder_base.py/RNNDecoderBase
+The parameter(s) ""output_layer"" in the class ""RNNDecoderBase""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/e4d934bf3c19873071700043d7a4c262b4fb89b9,Add Parameter,"Location: txtgen/modules/decoders/rnn_decoders.py/BasicRNNDecoder
+The parameter(s) ""output_layer"" in the class ""BasicRNNDecoder""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/ee251c969a5f0751f2abf76007bebebb95872a3d,Add Parameter,"Location: texar/data/data/mono_text_data.py/MonoTextData
+The parameter(s) ""self"" in the class ""MonoTextData""is/are added to the method ""_process_dataset""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/ee251c969a5f0751f2abf76007bebebb95872a3d,Add Parameter,"Location: texar/data/data/multi_aligned_data.py/MultiAlignedTextData
+The parameter(s) ""self"" in the class ""MultiAlignedTextData""is/are added to the method ""_process_dataset""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/ee251c969a5f0751f2abf76007bebebb95872a3d,Add Parameter,"Location: texar/data/data/paired_text_data.py/PairedTextData
+The parameter(s) ""self"" in the class ""PairedTextData""is/are added to the method ""_process_dataset""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/ee251c969a5f0751f2abf76007bebebb95872a3d,Change/Rename Parameter,"Location: texar/data/data/mono_text_data.py/MonoTextData
+The parameter(s) ""text_data"" of the method ""_make_other_transformations"" in the class ""MonoTextData"" is/are changed/renamed to ""data_spec""",PyRef,TP,
+https://github.com/asyml/texar/commit/ee520054f436ae9b38ce359da397ffc4a0de829a,Add Parameter,"Location: texar/agents/nature_dqn_agent.py/NatureDQNAgent
+The parameter(s) ""qnet,replay_memory"" in the class ""NatureDQNAgent""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/f073f90e639afa1ee2141dbed5d76e26ed31d5de,Add Parameter,"Location: texar/models/tsf/ops.py
+The parameter(s) ""real_len,fake_len""is/are added to the method ""adv_loss""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/f073f90e639afa1ee2141dbed5d76e26ed31d5de,Add Parameter,"Location: texar/modules/encoders/conv1d_discriminator.py/CNN
+The parameter(s) ""seq_len"" in the class ""CNN""is/are added to the method ""_build""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/f073f90e639afa1ee2141dbed5d76e26ed31d5de,Move Method,"Location: texar/models/tsf/ops.py
+Move Method	package adv_loss(x_real Any, x_fake Any, discriminator Any) : void from class org.texar.models.tsf.ops.PyDummyClass2 to package adv_loss(x_real Any, x_fake Any, discriminator Any, real_len Any, fake_len Any) : void from class org.texar.models.tsf.ops.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/f073f90e639afa1ee2141dbed5d76e26ed31d5de,Move Method,"Location: texar/models/tsf/ops.py
+Move Method	package retrieve_variables(scopes Any) : void from class org.texar.models.tsf.ops.PyDummyClass2 to package retrieve_variables(scopes Any) : void from class org.texar.models.tsf.ops.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/f073f90e639afa1ee2141dbed5d76e26ed31d5de,Move Method,"Location: texar/models/tsf/ops.py
+Move Method	package feed_dict(model Any, batch Any, rho Any, gamma Any, dropout Any, learning_rate Any) : void from class org.texar.models.tsf.ops.PyDummyClass2 to package feed_dict(model Any, batch Any, rho Any, gamma Any, dropout Any, learning_rate Any) : void from class org.texar.models.tsf.ops.PyDummyClass1",Python-adapted RMiner,FP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/data/database.py/DataBaseBase
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""DataBaseBase""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/data/database.py/MonoTextDataBase
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""MonoTextDataBase""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/modules/connectors/connector_base.py/ConnectorBase
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""ConnectorBase""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/modules/connectors/connectors.py/ConstantConnector
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""ConstantConnector""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/modules/connectors/connectors.py/ForwardConnector
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""ForwardConnector""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/modules/connectors/connectors.py/MLPTransformConnector
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""MLPTransformConnector""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/modules/connectors/connectors.py/StochasticConnector
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""StochasticConnector""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/modules/decoders/rnn_decoder_base.py/RNNDecoderBase
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""RNNDecoderBase""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/modules/decoders/rnn_decoders.py/BasicRNNDecoder
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""BasicRNNDecoder""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/modules/encoders/encoder_base.py/EncoderBase
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""EncoderBase""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/modules/encoders/rnn_encoders.py/RNNEncoderBase
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""RNNEncoderBase""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/modules/encoders/rnn_encoders.py/ForwardRNNEncoder
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""ForwardRNNEncoder""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/modules/encoders/rnn_encoders.py/HierarchicalForwardRNNEncoder
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""HierarchicalForwardRNNEncoder""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Remove Parameter,"Location: txtgen/modules/module_base.py/ModuleBase
+The parameter(s) ""seq_len"" is/are removed from the method ""__init__"" in the class ""ModuleBase""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Rename Method,"Location: txtgen/modules/module_base.py/ModuleBase
+The method ""module_name"" in the class ""ModuleBase"" is renamed to ""name""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/fe3c56d1843822425f9b387966f1f660a1d16714,Rename Method,"Location: txtgen/data/database.py
+Rename Method	package default_text_database_hparams() : void renamed to package default_text_dataset_hparams() : void in class org.txtgen.data.database.PyDummyClass1",Python-adapted RMiner,TP,
+https://github.com/asyml/texar/commit/ff81731754a7197f19eefa1ab80bc1fd27592ab5,Push Down Method,"Location: txtgen/modules/encoders/encoder_base.py
+The method ""default_hparams"" of the class ""EncoderBase""in the file ""txtgen/modules/encoders/encoder_base.py""is pushed down to the class ""ForwardRNNEncoder""in the file ""txtgen/modules/encoders/rnn_encoders.py""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/ffd5a3aa80a3fbe449b1a54a8fb5c91be79aa952,Add Parameter,"Location: txtgen/modules/decoders/rnn_decoder_base.py/RNNDecoderBase
+The parameter(s) ""cell"" in the class ""RNNDecoderBase""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/ffd5a3aa80a3fbe449b1a54a8fb5c91be79aa952,Add Parameter,"Location: txtgen/modules/decoders/rnn_decoders.py/BasicRNNDecoder
+The parameter(s) ""cell"" in the class ""BasicRNNDecoder""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
+https://github.com/asyml/texar/commit/ffd5a3aa80a3fbe449b1a54a8fb5c91be79aa952,Add Parameter,"Location: txtgen/modules/encoders/rnn_encoders.py/ForwardRNNEncoder
+The parameter(s) ""cell"" in the class ""ForwardRNNEncoder""is/are added to the method ""__init__""",PyRef,TP,
+https://github.com/asyml/texar/commit/ffe1bfb91edce333b443dc17acef2d52b0d2d0b9,Add Parameter,"Location: txtgen/data/vocabulary.py/Vocab
+The parameter(s) ""padding_token"" in the class ""Vocab""is/are added to the method ""__init__""","PyRef,Python-adapted RMiner",TP,
