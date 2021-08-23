@@ -59,4 +59,8 @@ The detected refactorings can be found in the file "DummyRef_data.json"
 
 ## Dataset for the Paper
 
+This tool was part of the following study:
+
+H. Atwi, B. Lin, N. Tsantalis, Y. Kashiwa, Y. Kamei, N. Ubayashi, G. Bavota and M. Lanza, "PyRef: Refactoring Detection in Python Projects," 2021 IEEE 21st International Working Conference on Source Code Analysis and Manipulation (SCAM), 2021, accepted.
+
 The labeled oracle used in the paper can be found in the file "data/dataset.csv".
