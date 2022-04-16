@@ -217,7 +217,7 @@ def move_method_ref(diff_common_element):
 def method_signature_change_ref(added_methods, removed_methods, common_methods):
     refs = []
     matched_methods = pd.DataFrame(
-        columns=['from', 'to', 'ref_type', 'priority', 'total_distance', 'path', 'm1', 'm2', 'mapped_stmts'])
+        columns=['from', 'to', 'ref_type', 'priority', 'total_distance', 'path', 'm1', 'm2', 'mapped_stmts', 'param_change'])
     mapped_stmts = []
     for removed_method in removed_methods:
         for added_m in added_methods:
@@ -274,7 +274,7 @@ def method_signature_change_ref(added_methods, removed_methods, common_methods):
                          "ref_type": _changes,
                          "priority": priority, "total_distance": total_distance, "path": added_m.get_path(),
                          "m1": removed_method,
-                         "m2": added_m, 'mapped_stmts': mapped_stmts},
+                         "m2": added_m, 'mapped_stmts': mapped_stmts, 'param_change': _param_change},
                         ignore_index=True
                     )
 
@@ -288,7 +288,6 @@ def method_signature_change_ref(added_methods, removed_methods, common_methods):
                 group.sort_values(['priority', 'total_distance'], ascending=[False, True]).iloc[0])
 
         matched_methods = pd.DataFrame(toKeep)  # FURTHER CHECK
-
         toKeep = []
 
         gp = matched_methods.groupby(['to'])
@@ -304,8 +303,7 @@ def method_signature_change_ref(added_methods, removed_methods, common_methods):
     for matched_method in matched_methods:
         refs.append(
             RenameRef(matched_method[0], matched_method[1], matched_method[2], matched_method[5], matched_method[-1],
-                      matched_method[6], matched_method[7], _param_change))
-
+                      matched_method[6], matched_method[7], matched_method[9]))
         added_m_rm = [added_m for added_m in added_methods if added_m.name == matched_method[1]]
         remove_m_rm = [removed_m for removed_m in removed_methods if removed_m.name == matched_method[0]]
 

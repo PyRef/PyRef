@@ -57,6 +57,8 @@ class RenameRef(Refactoring):
                 final_info.append(rename_info)
             if "Param" in change:
                 if "Add" in change:
+                    print(change, self._param_change)
+                    print(self._from, self._removed_m.get_path_string(), self._to)
                     param_info = "The parameters [ %s ] are added to the method %s %s" % (
                     ' '.join(self._param_change[0]), self._from, self._removed_m.get_path_string())
                 if "Remove" in change:
