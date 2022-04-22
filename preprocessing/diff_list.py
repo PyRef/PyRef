@@ -6,11 +6,17 @@ from preprocessing.revision import Rev
 from preprocessing.conditions_match import *
 from ast import *
 import os
-
+import time
+import signal
 from preprocessing.utils import to_tree
 
 
-def build_diff_lists(changes_path, commit=None, directory=None):
+def timeout_handler(num, stack):
+    print("Commit skipped due to the long processing time")
+    raise TimeoutError
+
+
+def build_diff_lists(changes_path, commit=None, directory=None, skip_time=None):
     refactorings = []
     t0 = time.time()
     if commit is not None:
@@ -30,15 +36,18 @@ def build_diff_lists(changes_path, commit=None, directory=None):
             print(">>>", str(ref))
     else:
         for root, dirs, files in os.walk(changes_path):
-            for name in files:
+            for ind, name in enumerate(files):
                 if name.endswith(".csv"):
-                    print(name)
+                    print(ind, '/', len(files), ' --- ', name[:-4])
                     df = pd.read_csv(changes_path + "/" + name)
                     if directory is not None:
                         df = df[df["Path"].isin(directory)]
                     rev_a = Rev()
                     rev_b = Rev()
                     df.apply(lambda row: populate(row, rev_a, rev_b), axis=1)
+                    if skip_time is not None:
+                        signal.signal(signal.SIGALRM, timeout_handler)
+                        signal.alarm(int(float(skip_time)*60))
                     try:
                         rev_difference = rev_a.revision_difference(rev_b)
                         refs = rev_difference.get_refactorings()
@@ -47,6 +56,11 @@ def build_diff_lists(changes_path, commit=None, directory=None):
                             print(">>>", str(ref))
                     except Exception as e:
                         print("Failed to process commit.", e)
+                    except TimeoutError as e:
+                        print("Commit skipped due to the long processing time")
+                    finally:
+                        if skip_time is not None:
+                            signal.alarm(0)
 
     t1 = time.time()
     total = t1 - t0
@@ -75,16 +89,20 @@ def extract_refs(args):
     from repomanager import repo_utils, repo_changes
 
     repo_path = args.repopath
-
+    if args.skip is not None:
+        skip_time = args.skip
+        print("\nCommit will be skipped if the processing time is longer than", skip_time, 'minutes.')
+    else:
+        skip_time = None
     if args.commit is not None:
         repo_changes.all_commits(repo_path, [args.commit])
         print("\nExtracting Refs...")
-        build_diff_lists(repo_path + "/changes/", args.commit, args.directory)
+        build_diff_lists(repo_path + "/changes/", args.commit, args.directory, skip_time)
     else:
         print("\nExtracting commit history...")
         repo_changes.all_commits(repo_path)
         print("\nExtracting Refs...")
-        build_diff_lists(repo_path + "/changes/", args.directory)
+        build_diff_lists(repo_path + "/changes/", args.directory, skip_time=skip_time)
 
 
 def validate(args):

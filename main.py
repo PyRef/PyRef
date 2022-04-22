@@ -54,6 +54,7 @@ extract_ref = subparsers.add_parser('getrefs', help='validate results')
 extract_ref.add_argument('-r', '--repopath', required=True, help='path to the repo')
 extract_ref.add_argument('-c', '--commit', required=False, help='specific commit hash')
 extract_ref.add_argument('-d', '--directory', required=False, help='specific directories', nargs='+')
+extract_ref.add_argument('-s', '--skip', required=False, help='skip commit after n minutes')
 extract_ref.set_defaults(func=extract_refs)
 
 
