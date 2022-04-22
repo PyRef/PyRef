@@ -31,6 +31,12 @@ Extract refactorings from a given repository
 python3 main.py getrefs -r "[PATH_TO_REPOSITORY]"
 ```
 
+You can also use flag *-s* to skip the commit which takes more than N minutes to extract the refactorings. For example, the following command skips commits which were processed for more than 10 minutes:
+
+```sh
+python3 main.py getrefs -r "[PATH_TO_REPOSITORY]" -s 10 
+```
+
 If you want to look into specific commit, you can use flag *-c*.
 If you want to look into specific directory, you can use flag *-d*.
 
