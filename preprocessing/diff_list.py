@@ -1,7 +1,7 @@
 import json
 import time
 from os import path
-
+import threading
 from preprocessing.revision import Rev
 from preprocessing.conditions_match import *
 from ast import *
@@ -11,9 +11,42 @@ import signal
 from preprocessing.utils import to_tree
 
 
+class RepeatedTimer(object):
+    # from https://stackoverflow.com/a/40965385
+    def __init__(self, interval, function, *args, **kwargs):
+        self._timer = None
+        self.interval = interval
+        self.function = function
+        self.args = args
+        self.kwargs = kwargs
+        self.is_running = False
+        self.next_call = time.time()
+        self.start()
+
+    def _run(self):
+        self.is_running = False
+        self.start()
+        self.function(*self.args, **self.kwargs)
+
+    def start(self):
+        if not self.is_running:
+            self.next_call += self.interval
+            self._timer = threading.Timer(self.next_call - time.time(), self._run)
+            self._timer.start()
+            self.is_running = True
+
+    def stop(self):
+        self._timer.cancel()
+        self.is_running = False
+
+
 def timeout_handler(num, stack):
     print("Commit skipped due to the long processing time")
     raise TimeoutError
+
+
+def execution_reminder():
+    print("Please wait, the process is still running. ", time.ctime())
 
 
 def build_diff_lists(changes_path, commit=None, directory=None, skip_time=None):
@@ -48,6 +81,7 @@ def build_diff_lists(changes_path, commit=None, directory=None, skip_time=None):
                     if skip_time is not None:
                         signal.signal(signal.SIGALRM, timeout_handler)
                         signal.alarm(int(float(skip_time)*60))
+                    rt = RepeatedTimer(480, execution_reminder)
                     try:
                         rev_difference = rev_a.revision_difference(rev_b)
                         refs = rev_difference.get_refactorings()
@@ -59,6 +93,7 @@ def build_diff_lists(changes_path, commit=None, directory=None, skip_time=None):
                     except TimeoutError as e:
                         print("Commit skipped due to the long processing time")
                     finally:
+                        rt.stop()
                         if skip_time is not None:
                             signal.alarm(0)
 
