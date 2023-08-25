@@ -53,6 +53,8 @@ You will need to first install the third-party dependencies. You can use the fol
 pip3 install -r requirements.txt
 ```
 
+**Note: Pandas of a version lower than 2.0.0 is required, as the newer versions of pandas changed ".append" (used in the PyRef code) to "._append" to avoid confusion with ".append" in Python (Thanks to Zhi Li for pointing this out).**
+
 We provide a toy project for you to test PyRef, which can be found at https://github.com/PyRef/DummyRef
 Please execute the following commands in order:
 
